@@ -7,6 +7,8 @@ sudo mv ./manjaro-zsh-prompt /usr/share/zsh/manjaro-zsh-prompt
 mv ~/.config ~/.config.old
 mv ./.config ~/.config
 
-sudo pacman -S icedtea-web feh pavucontrol redshift chromium i3blocks terminator ranger xfce4-power-manager  ttf-roboto ttf-roboto-mono virt-manager lxappearance thunar
+sudo pacman -S icedtea-web feh pavucontrol redshift chromium i3blocks terminator ranger xfce4-power-manager  ttf-roboto ttf-roboto-mono virt-manager lxappearance thunar autofs
 
 yay -S networkmanager-dmenu-git pfetch gruvbox-dark-gtk
+
+sudo systemctl enable autofs
