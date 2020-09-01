@@ -1,0 +1,5 @@
+2020/08/19-17:28:49.521 f7ea Reusing MANIFEST /home/bkrigdon/.config/chromium/Default/IndexedDB/https_www.accuweather.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/19-17:29:00.277 3ff8 Level-0 table #5: started
+2020/08/19-17:29:00.288 3ff8 Level-0 table #5: 348 bytes OK
+2020/08/19-17:29:00.295 3ff8 Delete type=0 #3
+2020/08/19-17:29:00.296 3ff8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
