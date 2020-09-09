@@ -1,5 +1,10 @@
 #!/bin/bash
 
+echo "Enter new hostname"
+read newhostname
+
+currentuser=$(whoami)
+
 sudo dnf install \
   https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
   
@@ -11,19 +16,14 @@ sudo dnf install gnome-tweak-tool gnome-shell-extension-user-theme chromium iced
 sudo systemctl enable snapd
 sudo systemctl start snapd
 
+sleep 10
+
 sudo ln -s /var/lib/snapd/snap /snap
 sudo snap install code --classic
 sudo snap install powershell --classic
 
-ssh-add ~/.ssh/id_rsa
-
-mkdir ~/.scripts
-cp -r ./lightmode ~/.scripts/lightmode
-cp -r ./darkmode ~/.scripts/darkmode
-echo "export PATH="/home/billy/.scripts:$PATH"" >> ~/.bashrc
-
-#gsettings set org.gnome.desktop.interface gtk-theme Arc
-#gsettings set org.gnome.desktop.interface gtk-theme Arc-Dark
+mv ./.scripts ~/.scripts
+echo "export PATH="/home/$currentuser/.scripts:$PATH"" >> ~/.bashrc
 
 rm -r ~/Public
 rm -r ~/Templates

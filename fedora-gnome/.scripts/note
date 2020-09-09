@@ -1,0 +1,94 @@
+#!/bin/bash
+
+#create notes directory if it doesn't exist already
+function create_dir {
+	if [ ! -d ~/.notes ]
+	then
+		mkdir ~/.notes
+	fi
+}
+
+#if called with no parameters, print the current date's note file if it exists	
+function print_note {
+	if [  "$#" -gt 0  ]
+	then
+		if [ -e ~/.notes/`date -d yesterday +"%m-%d-%Y"`.txt ]
+		then		
+			cat -n ~/.notes/`date -d yesterday +"%m-%d-%Y"`.txt
+		else
+			echo "There are no notes from yesterday"
+		fi
+	else
+		if [ -e ~/.notes/`date +"%m-%d-%Y"`.txt ] 
+		then
+			cat -n ~/.notes/`date +"%m-%d-%Y"`.txt
+		else
+			echo "There are no notes for the current date. You can add notes with note <notes to add>"
+		fi
+	fi
+}
+
+#if called with '-d <number>', delete line number specified
+function delete_note {
+	if [ "$#" -gt 1 ]
+	then
+		if [ "$#" -lt 3 ]
+		then
+			sed -i $2d ~/.notes/`date +"%m-%d-%Y"`.txt
+		else
+			echo "-d can only be called with 3 arguments"
+		fi
+	else
+		echo "You need to specify which line(s) to delete"
+	fi
+}
+
+#If called with '-ef' arguement, erase current date's file
+function erase_file {
+	if [ "$#" -lt 2 ]
+	then
+		rm ~/.notes/`date +"%m-%d-%Y"`.txt
+	else
+		echo "-ef cannot be called with any additional arguments"
+	fi	
+}
+#Append note to the current date's note file
+function add_note {
+	echo $@ >> ~/.notes/`date +"%m-%d-%Y"`.txt
+}
+
+function interactive_mode {
+	while [ $interactive_mode_on = true  ]
+	do
+		clear
+		print_note
+		read "$@" user_input 
+		bash_notes ${user_input[*]}
+	done
+}
+
+function bash_notes {
+	if [ "$#" -lt 1 ] || [ "$1" = "yesterday" ] || [ "$1" = "-y" ]
+	then
+		print_note "$@"
+	elif [ "$1" = "-d" ]
+	then
+		delete_note "$@"
+	elif [ "$1" = "-ef" ]	
+	then
+		erase_file "$@"
+	elif [ "$1" = "-i" ]
+	then
+		interactive_mode_on=true
+		interactive_mode
+	elif [ "$1" = "q" ]
+	then
+		interactive_mode_on=false	
+	else
+		add_note "$@"
+	fi
+}
+
+#Main Logic
+create_dir
+bash_notes "$@"
