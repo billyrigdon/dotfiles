@@ -27,6 +27,7 @@ sudo snap install powershell --classic
 mv ./.scripts ~/.scripts
 echo "export PATH="/home/$currentuser/.scripts:$PATH"" >> ~/.bashrc
 
+rm -r ~/.local/share/applications/*
 rm -r ~/Public
 rm -r ~/Templates
 mkdir ~/Git
