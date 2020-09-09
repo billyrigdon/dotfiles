@@ -13,7 +13,7 @@ sudo dnf install \
 sudo dnf install \
   https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm 
  
-sudo dnf install gnome-tweak-tool gnome-shell-extension-user-theme chromium icedtea-web java-latest-openjdk virt-manager snapd arc-theme numix-icon-theme-circle vim gnome-shell-extension-no-topleft-hot-corner gnome-shell-theme-flat-remix
+sudo dnf install gnome-tweak-tool gnome-shell-extension-user-theme chromium icedtea-web java-latest-openjdk virt-manager snapd arc-theme numix-icon-theme-circle vim gnome-shell-extension-no-topleft-hot-corner gnome-shell-theme-flat-remix gnome-shell-extension-topicons-plus
 
 sudo systemctl enable snapd
 sudo systemctl start snapd
