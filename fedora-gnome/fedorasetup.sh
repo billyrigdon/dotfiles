@@ -18,9 +18,9 @@ sudo snap install powershell --classic
 ssh-add ~/.ssh/id_rsa
 
 mkdir ~/.scripts
-sudo cp -r ./lightmode ~/.scripts/lightmode
-sudo cp -r ./darkmode ~/scripts/darkmode
-echo "echo export PATH="/home/billy/.scripts:$PATH"" >> ~/.bashrc
+cp -r ./lightmode ~/.scripts/lightmode
+cp -r ./darkmode ~/.scripts/darkmode
+echo "export PATH="/home/billy/.scripts:$PATH"" >> ~/.bashrc
 
 #gsettings set org.gnome.desktop.interface gtk-theme Arc
 #gsettings set org.gnome.desktop.interface gtk-theme Arc-Dark
