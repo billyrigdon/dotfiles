@@ -1,4 +1,4 @@
-gsettings set org.gnome.desktop.interface gtk-theme Arc
-gsettings set org.gnome.desktop.wm.preferences theme Arc
-gsettings set org.gnome.shell.extensions.user-theme name Arc
+gsettings set org.gnome.desktop.interface gtk-theme Flat-Remix-GTK-Blue
+gsettings set org.gnome.desktop.wm.preferences theme Flat-Remix-GTK-Blue
+gsettings set org.gnome.shell.extensions.user-theme name Flat-Remix-Blue-fullPanel
 gsettings set org.gnome.desktop.background picture-uri file:////home/billy/Pictures/Wallpapers/light-wallpaper.jpg

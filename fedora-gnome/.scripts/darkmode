@@ -1,4 +1,4 @@
-gsettings set org.gnome.desktop.interface gtk-theme Arc-Dark
-gsettings set org.gnome.desktop.wm.preferences theme Arc-Dark
-gsettings set org.gnome.shell.extensions.user-theme name Arc-Dark
+gsettings set org.gnome.desktop.interface gtk-theme Flat-Remix-GTK-Blue-Dark
+gsettings set org.gnome.desktop.wm.preferences theme Flat-Remix-GTK-Blue-Dark
+gsettings set org.gnome.shell.extensions.user-theme name Flat-Remix-Blue-Dark-fullPanel
 gsettings set org.gnome.desktop.background picture-uri file:////home/billy/Pictures/Wallpapers/dark-wallpaper.png
