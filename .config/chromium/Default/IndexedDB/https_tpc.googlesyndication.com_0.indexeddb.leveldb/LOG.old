@@ -1,5 +1,0 @@
-2020/08/19-15:49:13.958 a069 Reusing MANIFEST /home/bkrigdon/.config/chromium/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/19-15:49:22.990 707b Level-0 table #5: started
-2020/08/19-15:49:23.001 707b Level-0 table #5: 360 bytes OK
-2020/08/19-15:49:23.008 707b Delete type=0 #3
-2020/08/19-15:49:23.008 707b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

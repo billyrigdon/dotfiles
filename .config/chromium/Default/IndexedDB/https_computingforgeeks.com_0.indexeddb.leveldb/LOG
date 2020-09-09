@@ -1,5 +1,0 @@
-2020/08/19-16:48:58.123 3cb9 Reusing MANIFEST /home/bkrigdon/.config/chromium/Default/IndexedDB/https_computingforgeeks.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/19-16:49:31.713 3ff8 Level-0 table #5: started
-2020/08/19-16:49:31.720 3ff8 Level-0 table #5: 352 bytes OK
-2020/08/19-16:49:31.728 3ff8 Delete type=0 #3
-2020/08/19-16:49:31.729 3ff8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

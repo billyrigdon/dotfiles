@@ -1,0 +1,8 @@
+2020/08/19-17:14:31.194 c2e3 Reusing MANIFEST /home/bkrigdon/.config/chromium/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/19-17:14:31.195 c2e3 Recovering log #4
+2020/08/19-17:14:31.195 c2e3 Reusing old log /home/bkrigdon/.config/chromium/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/000004.log 
+2020/08/19-17:14:35.228 3ff8 Level-0 table #8: started
+2020/08/19-17:14:35.228 3ff8 Level-0 table #8: 0 bytes OK
+2020/08/19-17:14:35.248 3ff8 Delete type=0 #4
+2020/08/19-17:14:35.248 3ff8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/19-17:14:35.248 3ff8 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

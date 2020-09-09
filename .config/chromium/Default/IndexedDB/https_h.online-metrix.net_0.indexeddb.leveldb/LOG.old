@@ -1,8 +1,0 @@
-2020/08/19-15:37:18.398 6b87 Reusing MANIFEST /home/bkrigdon/.config/chromium/Default/IndexedDB/https_h.online-metrix.net_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/19-15:37:18.399 6b87 Recovering log #4
-2020/08/19-15:37:18.399 6b87 Reusing old log /home/bkrigdon/.config/chromium/Default/IndexedDB/https_h.online-metrix.net_0.indexeddb.leveldb/000004.log 
-2020/08/19-15:49:05.217 707b Level-0 table #8: started
-2020/08/19-15:49:05.217 707b Level-0 table #8: 0 bytes OK
-2020/08/19-15:49:05.227 707b Delete type=0 #4
-2020/08/19-15:49:05.227 707b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/08/19-15:49:05.227 707b Manual compaction at level-1 from (begin) .. (end); will stop at (end)

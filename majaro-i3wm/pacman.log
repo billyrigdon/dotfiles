@@ -1,0 +1,1466 @@
+[2020-08-19T11:02:06+0000] [PACMAN] Running 'pacman -r /mnt -Sy --cachedir=/mnt/var/cache/pacman/pkg --noconfirm linux-lts linux-lts-headers acpi amd-ucode b43-fwcutter bash btrfs-progs bzip2 coreutils crda dhclient diffutils dmraid dnsmasq dosfstools e2fsprogs ecryptfs-utils efibootmgr exfat-utils f2fs-tools file filesystem findutils gawk gcc-libs gettext glibc grep gzip inetutils intel-ucode iproute2 iptables iputils ipw2100-fw ipw2200-fw jfsutils less licenses linux-firmware logrotate lsb-release man-db manjaro-firmware manjaro-release manjaro-system man-pages memtest86+ mhwd mhwd-db mkinitcpio-openswap nano ntfs-3g os-prober pacman pciutils perl procps-ng psmisc reiserfsprogs sed shadow spectre-meltdown-checker s-nail sudo sysfsutils acpid cpupower cronie cryptsetup device-mapper dhcpcd haveged lvm2 mdadm nfs-utils rsync systemd-fsck-silent systemd-sysvcompat tlp wpa_supplicant tar texinfo usbutils util-linux vi wget which xfsprogs zsh accountsservice alsa-firmware alsa-plugins alsa-utils apparmor arandr bauh artwork-i3 autoconf automake avahi binutils bison blueman bluez-utils bmenu cantarell-fonts clipit deluge dfc dmidecode downgrade epdfview fakeroot ffmpeg ffmpegthumbnailer flac flex gcc gcolor2 gimp git gnome-keyring gparted groff gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly gstreamer gtksourceview-pkgbuild gufw gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-smb hexchat htop inxi json-c kvantum-manjaro libdvdcss libgpod libtool lightdm-settings lightdm-slick-greeter lm_sensors lxappearance lxinput m4 maia-console make manjaro-application-utility manjaro-browser-settings manjaro-hello manjaro-hotfixes manjaro-i3-settings manjaro-printer manjaro-ranger-settings manjaro-settings-manager-notifier markdown_previewer matcha-gtk-theme mesa-demos mlocate mobile-broadband-provider-info moc modemmanager morc_menu mousepad ncdu netctl networkmanager network-manager-applet networkmanager-openconnect networkmanager-openvpn networkmanager-pptp networkmanager-vpnc nss-mdns ntp openresolv openssh p7zip palemoon-bin pamac patch patchutils pcmanfm perl-file-mimeinfo polkit-gnome poppler-data powertop qt5ct qt5-styleplugins ranger sbxkb screenfetch snapd speedtest-cli subversion syslog-ng terminus-font tree ttf-bitstream-vera ttf-dejavu ttf-droid ttf-inconsolata ttf-indic-otf ttf-liberation upower vertex-maia-themes vi vibrancy-icons-teal viewnior vim vlc volumeicon w3m wallpapers-juhraya wmutils xarchiver xautolock xcursor-chameleon-pearl xcursor-maia xdg-utils xdotool xf86-input-elographics xf86-input-evdev xf86-input-libinput xf86-input-void xfburn xfce4-power-manager xorg-twm xorg-xhost xorg-xinit xorg-xkill xorg-xprop xterm xdg-user-dirs xorg-server yay zensu systemd'
+[2020-08-19T11:02:06+0000] [PACMAN] synchronizing package lists
+[2020-08-19T11:10:47+0000] [ALPM] transaction started
+[2020-08-19T11:10:48+0000] [ALPM] installed linux-api-headers (5.6.11-1)
+[2020-08-19T11:10:48+0000] [ALPM] installed tzdata (2020a-1)
+[2020-08-19T11:10:48+0000] [ALPM] installed iana-etc (20200720-1)
+[2020-08-19T11:10:48+0000] [ALPM] installed filesystem (2020.05-1)
+[2020-08-19T11:10:48+0000] [ALPM] installed glibc (2.31-5)
+[2020-08-19T11:10:48+0000] [ALPM] installed attr (2.4.48-3)
+[2020-08-19T11:10:48+0000] [ALPM] installed acl (2.2.53-3)
+[2020-08-19T11:10:48+0000] [ALPM] installed gcc-libs (10.1.0-2)
+[2020-08-19T11:10:48+0000] [ALPM] installed bashrc-manjaro (5.0.018-1)
+[2020-08-19T11:10:49+0000] [ALPM] installed ncurses (6.2-1)
+[2020-08-19T11:10:49+0000] [ALPM] installed readline (8.0.004-1)
+[2020-08-19T11:10:49+0000] [ALPM] installed bash (5.0.018-1)
+[2020-08-19T11:10:49+0000] [ALPM] installed gmp (6.2.0-1)
+[2020-08-19T11:10:49+0000] [ALPM] installed libcap (2.38-1)
+[2020-08-19T11:10:49+0000] [ALPM] installed gdbm (1.18.1-3)
+[2020-08-19T11:10:49+0000] [ALPM] installed db (5.3.28-5)
+[2020-08-19T11:10:49+0000] [ALPM] installed perl (5.32.0-1)
+[2020-08-19T11:10:49+0000] [ALPM] installed openssl (1.1.1.g-2)
+[2020-08-19T11:10:49+0000] [ALPM] installed coreutils (8.32-1)
+[2020-08-19T11:10:50+0000] [ALPM] installed linux-firmware (20200807.r1689.c331aa9-1)
+[2020-08-19T11:10:50+0000] [ALPM] installed zlib (1:1.2.11-4)
+[2020-08-19T11:10:50+0000] [ALPM] installed xz (5.2.5-1)
+[2020-08-19T11:10:50+0000] [ALPM] installed kmod (27-1)
+[2020-08-19T11:10:50+0000] [ALPM] installed mpfr (4.0.2-2)
+[2020-08-19T11:10:50+0000] [ALPM] installed gawk (5.1.0-1)
+[2020-08-19T11:10:50+0000] [ALPM] installed mkinitcpio-busybox (1.31.1-1)
+[2020-08-19T11:10:50+0000] [ALPM] installed cracklib (2.9.7-2)
+[2020-08-19T11:10:50+0000] [ALPM] installed libutil-linux (2.36-1)
+[2020-08-19T11:10:50+0000] [ALPM] installed e2fsprogs (1.45.6-2)
+[2020-08-19T11:10:50+0000] [ALPM] installed libsasl (2.1.27-3)
+[2020-08-19T11:10:50+0000] [ALPM] installed libldap (2.4.50-2)
+[2020-08-19T11:10:50+0000] [ALPM] installed keyutils (1.6.3-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed krb5 (1.18.2-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed libtirpc (1.2.6-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed pambase (20190105.1-2)
+[2020-08-19T11:10:51+0000] [ALPM] installed pam (1.3.1-2)
+[2020-08-19T11:10:51+0000] [ALPM] installed libcap-ng (0.7.10-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed audit (2.8.5-6)
+[2020-08-19T11:10:51+0000] [ALPM] installed shadow (4.8.1-3)
+[2020-08-19T11:10:51+0000] [ALPM] installed libgpg-error (1.38-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed libgcrypt (1.8.6-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed lz4 (1:1.9.2-2)
+[2020-08-19T11:10:51+0000] [ALPM] installed systemd-libs (245.7-2)
+[2020-08-19T11:10:51+0000] [ALPM] installed util-linux (2.36-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed bzip2 (1.0.8-3)
+[2020-08-19T11:10:51+0000] [ALPM] installed expat (2.2.9-3)
+[2020-08-19T11:10:51+0000] [ALPM] installed zstd (1.4.5-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed libarchive (3.4.3-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed diffutils (3.7-3)
+[2020-08-19T11:10:51+0000] [ALPM] installed findutils (4.7.0-2)
+[2020-08-19T11:10:51+0000] [ALPM] installed pcre (8.44-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed grep (3.4-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed less (551-3)
+[2020-08-19T11:10:51+0000] [ALPM] installed gzip (1.10-3)
+[2020-08-19T11:10:51+0000] [ALPM] installed device-mapper (2.02.187-3)
+[2020-08-19T11:10:51+0000] [ALPM] installed popt (1.18-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed json-c (0.15-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed argon2 (20190702-3)
+[2020-08-19T11:10:51+0000] [ALPM] installed cryptsetup (2.3.3-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed dbus (1.12.20-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed libmnl (1.0.4-3)
+[2020-08-19T11:10:51+0000] [ALPM] installed libnftnl (1.1.7-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed libnl (3.5.0-2)
+[2020-08-19T11:10:51+0000] [ALPM] installed libusb (1.0.23-2)
+[2020-08-19T11:10:51+0000] [ALPM] installed libpcap (1.9.1-2)
+[2020-08-19T11:10:51+0000] [ALPM] installed libnfnetlink (1.0.1-4)
+[2020-08-19T11:10:51+0000] [ALPM] installed libnetfilter_conntrack (1.0.8-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed iptables (1:1.8.5-2)
+[2020-08-19T11:10:51+0000] [ALPM] installed kbd (2.2.0-5)
+[2020-08-19T11:10:51+0000] [ALPM] installed hwids (20200306-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed libunistring (0.9.10-2)
+[2020-08-19T11:10:51+0000] [ALPM] installed libidn2 (2.3.0-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed libtasn1 (4.16.0-1)
+[2020-08-19T11:10:51+0000] [ALPM] installed libffi (3.3-3)
+[2020-08-19T11:10:51+0000] [ALPM] installed libp11-kit (0.23.20-5)
+[2020-08-19T11:10:51+0000] [ALPM] installed p11-kit (0.23.20-5)
+[2020-08-19T11:10:51+0000] [ALPM] installed ca-certificates-utils (20181109-4)
+[2020-08-19T11:10:51+0000] [ALPM] installed ca-certificates-mozilla (3.55-2)
+[2020-08-19T11:10:51+0000] [ALPM] installed ca-certificates (20181109-4)
+[2020-08-19T11:10:52+0000] [ALPM] installed libssh2 (1.9.0-2)
+[2020-08-19T11:10:52+0000] [ALPM] installed libpsl (0.21.0-2)
+[2020-08-19T11:10:52+0000] [ALPM] installed libnghttp2 (1.41.0-1)
+[2020-08-19T11:10:52+0000] [ALPM] installed curl (7.71.1-1)
+[2020-08-19T11:10:52+0000] [ALPM] installed libelf (0.180-1)
+[2020-08-19T11:10:52+0000] [ALPM] installed libseccomp (2.4.2-1)
+[2020-08-19T11:10:52+0000] [ALPM] installed pcre2 (10.35-1)
+[2020-08-19T11:10:52+0000] [ALPM] installed systemd (245.7-2)
+[2020-08-19T11:10:52+0000] [ALPM-SCRIPTLET] Initializing machine ID from random generator.
+[2020-08-19T11:10:52+0000] [ALPM-SCRIPTLET] Created symlink /etc/systemd/system/getty.target.wants/getty@tty1.service -> /usr/lib/systemd/system/getty@.service.
+[2020-08-19T11:10:52+0000] [ALPM-SCRIPTLET] Created symlink /etc/systemd/system/multi-user.target.wants/remote-fs.target -> /usr/lib/systemd/system/remote-fs.target.
+[2020-08-19T11:10:52+0000] [ALPM-SCRIPTLET] :: Append 'init=/usr/lib/systemd/systemd' to your kernel command line in your
+[2020-08-19T11:10:52+0000] [ALPM-SCRIPTLET]    bootloader to replace sysvinit with systemd, or install systemd-sysvcompat
+[2020-08-19T11:10:52+0000] [ALPM] installed mkinitcpio (27-3)
+[2020-08-19T11:10:53+0000] [ALPM] installed linux54 (5.4.57-1)
+[2020-08-19T11:10:53+0000] [ALPM] installed linux-lts (1:5.4-3)
+[2020-08-19T11:10:55+0000] [ALPM] installed linux54-headers (5.4.57-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed linux-lts-headers (1:5.4-3)
+[2020-08-19T11:10:55+0000] [ALPM] installed acpi (1.7-3)
+[2020-08-19T11:10:55+0000] [ALPM] installed amd-ucode (20200807.r1689.c331aa9-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed b43-fwcutter (019-3)
+[2020-08-19T11:10:55+0000] [ALPM] installed lzo (2.10-3)
+[2020-08-19T11:10:55+0000] [ALPM] installed btrfs-progs (5.7-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed wireless-regdb (2020.04.29-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed iw (5.4-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed crda (4.14-3)
+[2020-08-19T11:10:55+0000] [ALPM-SCRIPTLET] Uncomment the right regulatory domain in /etc/conf.d/wireless-regdom.
+[2020-08-19T11:10:55+0000] [ALPM-SCRIPTLET] It will automatically be set on boot.
+[2020-08-19T11:10:55+0000] [ALPM] installed iproute2 (5.8.0-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed run-parts (4.8.6.1-2)
+[2020-08-19T11:10:55+0000] [ALPM] installed dhclient (4.4.2-2)
+[2020-08-19T11:10:55+0000] [ALPM] installed dmraid (1.0.0.rc16.3-12)
+[2020-08-19T11:10:55+0000] [ALPM] installed nettle (3.6-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed dnsmasq (2.82-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed dosfstools (4.1-3)
+[2020-08-19T11:10:55+0000] [ALPM] installed nspr (4.27-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed sqlite (3.32.3-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed nss (3.55-2)
+[2020-08-19T11:10:55+0000] [ALPM] installed ecryptfs-utils (111-4)
+[2020-08-19T11:10:55+0000] [ALPM] installed efivar (37-4)
+[2020-08-19T11:10:55+0000] [ALPM] installed efibootmgr (17-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed fuse-common (3.9.2-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed fuse2 (2.9.9-4)
+[2020-08-19T11:10:55+0000] [ALPM] installed exfat-utils (1.3.0-2)
+[2020-08-19T11:10:55+0000] [ALPM] installed f2fs-tools (1.13.0-2)
+[2020-08-19T11:10:55+0000] [ALPM] installed file (5.39-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed glib2 (2.64.4-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed icu (67.1-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed libxml2 (2.9.10-2)
+[2020-08-19T11:10:55+0000] [ALPM] installed libcroco (0.6.13-2)
+[2020-08-19T11:10:55+0000] [ALPM] installed gettext (0.20.2-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed inetutils (1.9.4-8)
+[2020-08-19T11:10:55+0000] [ALPM] installed intel-ucode (20200616-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed iputils (20190709-2)
+[2020-08-19T11:10:55+0000] [ALPM] installed ipw2100-fw (1.3-10)
+[2020-08-19T11:10:55+0000] [ALPM] installed ipw2200-fw (3.1-8)
+[2020-08-19T11:10:55+0000] [ALPM] installed jfsutils (1.1.15-7)
+[2020-08-19T11:10:55+0000] [ALPM] installed licenses (20200427-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed logrotate (3.17.0-1)
+[2020-08-19T11:10:55+0000] [ALPM] installed lsb-release (1.4-13)
+[2020-08-19T11:10:56+0000] [ALPM] installed groff (1.22.4-3)
+[2020-08-19T11:10:56+0000] [ALPM] installed libpipeline (1.5.2-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed man-db (2.9.3-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed manjaro-firmware (20160419-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed manjaro-release (20.1-0)
+[2020-08-19T11:10:56+0000] [ALPM] installed npth (1.6-2)
+[2020-08-19T11:10:56+0000] [ALPM] installed libksba (1.4.0-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed libassuan (2.5.3-2)
+[2020-08-19T11:10:56+0000] [ALPM] installed libsecret (0.20.3-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed pinentry (1.1.0-5)
+[2020-08-19T11:10:56+0000] [ALPM] installed gnutls (3.6.14-2)
+[2020-08-19T11:10:56+0000] [ALPM] installed gnupg (2.2.21-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed gpgme (1.14.0-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed archlinux-keyring (20200622-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed manjaro-keyring (20200603-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed libnsl (1.2.0-2)
+[2020-08-19T11:10:56+0000] [ALPM] installed python (3.8.5-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed python-npyscreen (4.10.5-4)
+[2020-08-19T11:10:56+0000] [ALPM] installed python-urllib3 (1.25.10-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed python-appdirs (1.4.4-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed python-pyparsing (2.4.7-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed python-six (1.15.0-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed python-packaging (20.4-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed python-ordered-set (4.0.2-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed python-setuptools (1:49.2.1-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed python-chardet (3.0.4-5)
+[2020-08-19T11:10:56+0000] [ALPM] installed python-idna (2.10-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed python-requests (2.24.0-1)
+[2020-08-19T11:10:56+0000] [ALPM] installed pacman-mirrors (4.16.4-1)
+[2020-08-19T11:10:57+0000] [ALPM] installed pacman (5.2.2-2)
+[2020-08-19T11:10:57+0000] [ALPM-SCRIPTLET] [1;1m[1;32m==>[1;0m[1;1m To import the data required by pacman for package verification run:[1;0m
+[2020-08-19T11:10:57+0000] [ALPM-SCRIPTLET] [1;1m[1;32m==>[1;0m[1;1m `pacman-key --init; pacman-key --populate archlinux manjaro`[1;0m
+[2020-08-19T11:10:57+0000] [ALPM-SCRIPTLET] [1;1m[1;32m==>[1;0m[1;1m See: https://www.archlinux.org/news/having-pacman-verify-packages[1;0m
+[2020-08-19T11:10:57+0000] [ALPM] installed sed (4.8-1)
+[2020-08-19T11:10:57+0000] [ALPM] installed manjaro-system (20200723-1)
+[2020-08-19T11:10:57+0000] [ALPM] installed man-pages (5.07-1)
+[2020-08-19T11:10:57+0000] [ALPM] installed memtest86+ (5.01-4)
+[2020-08-19T11:10:57+0000] [ALPM] installed libx86emu (3.1-1)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-encode-locale (1.05-7)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-timedate (2.33-2)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-http-date (6.05-3)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-file-listing (6.04-8)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-html-tagset (3.20-10)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-html-parser (3.72-10)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-clone (0.45-2)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-io-html (1.001-7)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-lwp-mediatypes (6.02-8)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-uri (1.76-4)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-http-message (6.25-1)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-http-cookies (6.08-3)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-http-daemon (6.06-2)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-http-negotiate (6.01-8)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-net-http (6.19-4)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-try-tiny (0.30-5)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-www-robotrules (6.02-8)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-libwww (6.46-1)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-xml-parser (2.46-2)
+[2020-08-19T11:10:57+0000] [ALPM] installed perl-xml-writer (0.625-6)
+[2020-08-19T11:10:57+0000] [ALPM] installed hwinfo (21.70-2)
+[2020-08-19T11:10:57+0000] [ALPM] installed libpciaccess (0.16-2)
+[2020-08-19T11:10:57+0000] [ALPM] installed libdrm (2.4.102-1)
+[2020-08-19T11:10:57+0000] [ALPM] installed wayland (1.18.0-2)
+[2020-08-19T11:10:57+0000] [ALPM] installed xcb-proto (1.14-1)
+[2020-08-19T11:10:57+0000] [ALPM] installed libxdmcp (1.1.3-3)
+[2020-08-19T11:10:57+0000] [ALPM] installed libxau (1.0.9-3)
+[2020-08-19T11:10:57+0000] [ALPM] installed libxcb (1.14-1)
+[2020-08-19T11:10:57+0000] [ALPM] installed xorgproto (2020.1-1)
+[2020-08-19T11:10:57+0000] [ALPM] installed libx11 (1.6.11-1)
+[2020-08-19T11:10:57+0000] [ALPM] installed libxext (1.3.4-3)
+[2020-08-19T11:10:57+0000] [ALPM] installed libxxf86vm (1.1.4-4)
+[2020-08-19T11:10:57+0000] [ALPM] installed libxfixes (5.0.3-4)
+[2020-08-19T11:10:57+0000] [ALPM] installed libxdamage (1.1.5-3)
+[2020-08-19T11:10:57+0000] [ALPM] installed libxshmfence (1.3-2)
+[2020-08-19T11:10:57+0000] [ALPM] installed libomxil-bellagio (0.9.3-3)
+[2020-08-19T11:10:57+0000] [ALPM] installed libunwind (1.3.1-2)
+[2020-08-19T11:10:57+0000] [ALPM] installed libedit (20191231_3.1-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed llvm-libs (10.0.1-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed lm_sensors (3.6.0-2)
+[2020-08-19T11:10:58+0000] [ALPM] installed libglvnd (1.3.2-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed vulkan-icd-loader (1.2.148-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed mesa (20.1.5-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed libpng (1.6.37-3)
+[2020-08-19T11:10:58+0000] [ALPM] installed libjpeg-turbo (2.0.5-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed libtiff (4.1.0-2)
+[2020-08-19T11:10:58+0000] [ALPM] installed shared-mime-info (2.0+1+g6bf9e4f-2)
+[2020-08-19T11:10:58+0000] [ALPM] installed gdk-pixbuf2 (2.40.0+6+g5432316df-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed libnotify (0.7.9-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed mhwd-nvidia-340xx (340.108-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed mhwd-nvidia-390xx (390.132-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed mhwd-amdgpu (19.1.0-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed mhwd-ati (19.1.0-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed mhwd-nvidia-418xx (418.113-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed mhwd-nvidia-430xx (430.64-1.0)
+[2020-08-19T11:10:58+0000] [ALPM] installed mhwd-nvidia-435xx (435.21-1.0)
+[2020-08-19T11:10:58+0000] [ALPM] installed mhwd-nvidia-440xx (440.100-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed mhwd-db (0.6.4-11)
+[2020-08-19T11:10:58+0000] [ALPM] installed v86d (0.1.10-5.1)
+[2020-08-19T11:10:58+0000] [ALPM] installed mhwd (0.6.4-2)
+[2020-08-19T11:10:58+0000] [ALPM] installed mkinitcpio-openswap (0.1.0-3)
+[2020-08-19T11:10:58+0000] [ALPM-SCRIPTLET] 
+[2020-08-19T11:10:58+0000] [ALPM-SCRIPTLET] Alter /etc/openswap.conf file for your swap device name, keyfiles, etc...
+[2020-08-19T11:10:58+0000] [ALPM-SCRIPTLET] 
+[2020-08-19T11:10:58+0000] [ALPM-SCRIPTLET] For more information see: https://wiki.archlinux.org/index.php/Dm-crypt/Swap_encryption#mkinitcpio_hook
+[2020-08-19T11:10:58+0000] [ALPM-SCRIPTLET] 
+[2020-08-19T11:10:58+0000] [ALPM-SCRIPTLET] Don't forget to add the openswap hook after encrypt and before resume in your /etc/mkinitcpio.conf and run mkinitcpio -p linux...
+[2020-08-19T11:10:58+0000] [ALPM-SCRIPTLET] 
+[2020-08-19T11:10:58+0000] [ALPM] installed nano (5.0-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed ntfs-3g (2017.3.23-4)
+[2020-08-19T11:10:58+0000] [ALPM] installed os-prober (1.77-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed pciutils (3.7.0-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed procps-ng (3.3.16-2)
+[2020-08-19T11:10:58+0000] [ALPM] installed psmisc (23.3-2)
+[2020-08-19T11:10:58+0000] [ALPM] installed reiserfsprogs (3.6.27-3)
+[2020-08-19T11:10:58+0000] [ALPM] installed spectre-meltdown-checker (0.43-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed s-nail (14.9.19-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed sudo (1.9.2-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed sysfsutils (2.1.0-11)
+[2020-08-19T11:10:58+0000] [ALPM] installed acpid (2.0.32-2)
+[2020-08-19T11:10:58+0000] [ALPM] installed cpupower (5.7-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed cronie (1.5.5-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed dhcpcd (9.1.4-2)
+[2020-08-19T11:10:58+0000] [ALPM] installed haveged (1.9.13-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed libaio (0.3.112-2)
+[2020-08-19T11:10:58+0000] [ALPM] installed thin-provisioning-tools (0.8.5-3)
+[2020-08-19T11:10:58+0000] [ALPM] installed lvm2 (2.02.187-3)
+[2020-08-19T11:10:58+0000] [ALPM] installed mdadm (4.1-2)
+[2020-08-19T11:10:58+0000] [ALPM] installed rpcbind (1.2.5-3)
+[2020-08-19T11:10:58+0000] [ALPM] installed nfsidmap (2.5.1-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed ding-libs (0.6.1-3)
+[2020-08-19T11:10:58+0000] [ALPM] installed gssproxy (0.8.3-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed libevent (2.1.12-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed nfs-utils (2.5.1-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed xxhash (0.8.0-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed rsync (3.2.3-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed systemd-fsck-silent (239-1)
+[2020-08-19T11:10:58+0000] [ALPM] installed systemd-sysvcompat (245.7-2)
+[2020-08-19T11:10:58+0000] [ALPM] installed hdparm (9.58-3)
+[2020-08-19T11:10:58+0000] [ALPM] installed usbutils (012-2)
+[2020-08-19T11:10:58+0000] [ALPM] installed tlp (1.3.1-2)
+[2020-08-19T11:10:58+0000] [ALPM] installed wpa_supplicant (2:2.9-7)
+[2020-08-19T11:10:58+0000] [ALPM] installed tar (1.32-3)
+[2020-08-19T11:10:59+0000] [ALPM] installed texinfo (6.7-3)
+[2020-08-19T11:10:59+0000] [ALPM] installed vi (1:070224-4)
+[2020-08-19T11:10:59+0000] [ALPM] installed wget (1.20.3-3)
+[2020-08-19T11:10:59+0000] [ALPM] installed which (2.21-5)
+[2020-08-19T11:10:59+0000] [ALPM] installed xfsprogs (5.6.0-2)
+[2020-08-19T11:10:59+0000] [ALPM] installed zsh (5.8-1)
+[2020-08-19T11:10:59+0000] [ALPM] installed js60 (60.9.0-2)
+[2020-08-19T11:10:59+0000] [ALPM] installed polkit (0.116-5.1)
+[2020-08-19T11:10:59+0000] [ALPM] installed accountsservice (0.6.55-2)
+[2020-08-19T11:10:59+0000] [ALPM] installed alsa-firmware (1.2.1-2)
+[2020-08-19T11:10:59+0000] [ALPM] installed alsa-topology-conf (1.2.3-1)
+[2020-08-19T11:10:59+0000] [ALPM] installed alsa-ucm-conf (1.2.3-2)
+[2020-08-19T11:10:59+0000] [ALPM] installed alsa-lib (1.2.3.2-1)
+[2020-08-19T11:10:59+0000] [ALPM] installed alsa-plugins (1:1.2.2-2)
+[2020-08-19T11:10:59+0000] [ALPM] installed libsamplerate (0.1.9-3)
+[2020-08-19T11:10:59+0000] [ALPM] installed alsa-utils (1.2.3-2)
+[2020-08-19T11:10:59+0000] [ALPM] installed apparmor (2.13.4-6)
+[2020-08-19T11:10:59+0000] [ALPM] installed atk (2.36.0-1)
+[2020-08-19T11:10:59+0000] [ALPM] installed libxrender (0.9.10-4)
+[2020-08-19T11:10:59+0000] [ALPM] installed graphite (1:1.3.14-1)
+[2020-08-19T11:10:59+0000] [ALPM] installed harfbuzz (2.7.0-1)
+[2020-08-19T11:10:59+0000] [ALPM] installed freetype2 (2.10.2-1)
+[2020-08-19T11:10:59+0000] [ALPM] installed fontconfig (2:2.13.91+48+gfcb0420-2)
+[2020-08-19T11:10:59+0000] [ALPM-SCRIPTLET] Rebuilding fontconfig cache... done.
+[2020-08-19T11:10:59+0000] [ALPM] installed pixman (0.40.0-1)
+[2020-08-19T11:10:59+0000] [ALPM] installed cairo (1.17.2+25+gaee96d175-1)
+[2020-08-19T11:10:59+0000] [ALPM] installed libxcursor (1.2.0-2)
+[2020-08-19T11:10:59+0000] [ALPM] installed libxinerama (1.1.4-3)
+[2020-08-19T11:10:59+0000] [ALPM] installed libxrandr (1.5.2-3)
+[2020-08-19T11:10:59+0000] [ALPM] installed libxi (1.7.10-3)
+[2020-08-19T11:10:59+0000] [ALPM] installed libepoxy (1.5.4-2)
+[2020-08-19T11:10:59+0000] [ALPM] installed dconf (0.36.0-1)
+[2020-08-19T11:10:59+0000] [ALPM] installed libxcomposite (0.4.5-3)
+[2020-08-19T11:10:59+0000] [ALPM] installed libdatrie (0.2.12-2)
+[2020-08-19T11:10:59+0000] [ALPM] installed libthai (0.1.28-2)
+[2020-08-19T11:10:59+0000] [ALPM] installed libxft (2.3.3-2)
+[2020-08-19T11:10:59+0000] [ALPM] installed fribidi (1.0.10-1)
+[2020-08-19T11:10:59+0000] [ALPM] installed pango (1:1.44.7+11+g73b46b04-1)
+[2020-08-19T11:10:59+0000] [ALPM] installed libxtst (1.2.3-4)
+[2020-08-19T11:10:59+0000] [ALPM] installed at-spi2-core (2.36.0-1)
+[2020-08-19T11:10:59+0000] [ALPM] installed at-spi2-atk (2.34.2-1)
+[2020-08-19T11:11:00+0000] [ALPM] installed xkeyboard-config (2.30-2)
+[2020-08-19T11:11:00+0000] [ALPM] installed libxkbcommon (0.10.0-1)
+[2020-08-19T11:11:00+0000] [ALPM] installed hicolor-icon-theme (0.17-2)
+[2020-08-19T11:11:00+0000] [ALPM] installed librsvg (2:2.48.8-1)
+[2020-08-19T11:11:00+0000] [ALPM] installed gtk-update-icon-cache (1:3.24.22-1)
+[2020-08-19T11:11:02+0000] [ALPM] installed adwaita-icon-theme (3.36.1-1)
+[2020-08-19T11:11:02+0000] [ALPM] installed json-glib (1.4.4-2)
+[2020-08-19T11:11:02+0000] [ALPM] installed wayland-protocols (1.20-1)
+[2020-08-19T11:11:02+0000] [ALPM] installed desktop-file-utils (0.26-1)
+[2020-08-19T11:11:02+0000] [ALPM] installed cantarell-fonts (1:0.201-1)
+[2020-08-19T11:11:02+0000] [ALPM] installed lcms2 (2.11-2)
+[2020-08-19T11:11:02+0000] [ALPM] installed libgusb (0.3.5-1)
+[2020-08-19T11:11:02+0000] [ALPM] installed libgudev (233-2)
+[2020-08-19T11:11:02+0000] [ALPM] installed colord (1.4.4+9+g1ce26da-2)
+[2020-08-19T11:11:02+0000] [ALPM] installed libproxy (0.4.15+33+g454a499-2)
+[2020-08-19T11:11:02+0000] [ALPM] installed adobe-source-code-pro-fonts (2.030ro+1.050it-6)
+[2020-08-19T11:11:02+0000] [ALPM] installed gsettings-desktop-schemas (3.36.1-1)
+[2020-08-19T11:11:02+0000] [ALPM] installed glib-networking (2.64.3-2)
+[2020-08-19T11:11:03+0000] [ALPM] installed brotli (1.0.7-3)
+[2020-08-19T11:11:03+0000] [ALPM] installed libsoup (2.70.0-1)
+[2020-08-19T11:11:03+0000] [ALPM] installed rest (0.8.1-3)
+[2020-08-19T11:11:03+0000] [ALPM] installed libdaemon (0.14-5)
+[2020-08-19T11:11:03+0000] [ALPM] installed avahi (0.8+15+ge8a3dd0-1)
+[2020-08-19T11:11:03+0000] [ALPM] installed libcups (2.3.3-2)
+[2020-08-19T11:11:03+0000] [ALPM] installed libogg (1.3.4-2)
+[2020-08-19T11:11:03+0000] [ALPM] installed libvorbis (1.3.7-2)
+[2020-08-19T11:11:03+0000] [ALPM] installed libtool (2.4.6+42+gb88cebd5-13)
+[2020-08-19T11:11:03+0000] [ALPM] installed tdb (1.4.3-2)
+[2020-08-19T11:11:03+0000] [ALPM] installed sound-theme-freedesktop (0.8-4)
+[2020-08-19T11:11:03+0000] [ALPM] installed libcanberra (0.30+2+gc0620e4-3)
+[2020-08-19T11:11:03+0000] [ALPM] installed iso-codes (4.5.0-1)
+[2020-08-19T11:11:03+0000] [ALPM] installed gtk3 (1:3.24.22-1)
+[2020-08-19T11:11:03+0000] [ALPM] installed python-cairo (1.19.1-1)
+[2020-08-19T11:11:03+0000] [ALPM] installed gobject-introspection-runtime (1.64.1-2)
+[2020-08-19T11:11:03+0000] [ALPM] installed pygobject-devel (3.36.1-1)
+[2020-08-19T11:11:03+0000] [ALPM] installed python-gobject (3.36.1-1)
+[2020-08-19T11:11:03+0000] [ALPM] installed xorg-xrandr (1.5.1-2)
+[2020-08-19T11:11:03+0000] [ALPM] installed arandr (0.1.10-4)
+[2020-08-19T11:11:03+0000] [ALPM] installed python-pyqt5-sip (12.8.0-1)
+[2020-08-19T11:11:03+0000] [ALPM] installed xcb-util-keysyms (0.4.0-3)
+[2020-08-19T11:11:03+0000] [ALPM] installed xcb-util-renderutil (0.3.9-3)
+[2020-08-19T11:11:03+0000] [ALPM] installed libice (1.0.10-3)
+[2020-08-19T11:11:03+0000] [ALPM] installed libsm (1.2.3-2)
+[2020-08-19T11:11:04+0000] [ALPM] installed libxt (1.2.0-2)
+[2020-08-19T11:11:04+0000] [ALPM] installed libxmu (1.1.3-2)
+[2020-08-19T11:11:04+0000] [ALPM] installed xorg-xset (1.2.4-2)
+[2020-08-19T11:11:04+0000] [ALPM] installed xorg-xprop (1.2.4-2)
+[2020-08-19T11:11:04+0000] [ALPM] installed xdg-utils (1.1.3+19+g9816ebb-1)
+[2020-08-19T11:11:04+0000] [ALPM] installed xcb-util-wm (0.4.1-3)
+[2020-08-19T11:11:04+0000] [ALPM] installed xcb-util (0.4.0-3)
+[2020-08-19T11:11:04+0000] [ALPM] installed xcb-util-image (0.4.0-3)
+[2020-08-19T11:11:04+0000] [ALPM] installed tslib (1.22-1)
+[2020-08-19T11:11:04+0000] [ALPM] installed mtdev (1.1.6-1)
+[2020-08-19T11:11:04+0000] [ALPM] installed libevdev (1.9.1-1)
+[2020-08-19T11:11:04+0000] [ALPM] installed libwacom (1.4.1-1)
+[2020-08-19T11:11:04+0000] [ALPM] installed libinput (1.15.6-1)
+[2020-08-19T11:11:04+0000] [ALPM] installed libxkbcommon-x11 (0.10.0-1)
+[2020-08-19T11:11:04+0000] [ALPM] installed double-conversion (3.1.5-2)
+[2020-08-19T11:11:04+0000] [ALPM] installed md4c (0.4.4-1)
+[2020-08-19T11:11:04+0000] [ALPM] installed qt5-base (5.15.0-4)
+[2020-08-19T11:11:05+0000] [ALPM] installed python-pyqt5 (5.15.0-3)
+[2020-08-19T11:11:05+0000] [ALPM] installed python-colorama (0.4.3-1)
+[2020-08-19T11:11:05+0000] [ALPM] installed libyaml (0.2.5-1)
+[2020-08-19T11:11:05+0000] [ALPM] installed python-yaml (5.3.1-2)
+[2020-08-19T11:11:05+0000] [ALPM] installed python-pyaml (20.4.0-2)
+[2020-08-19T11:11:05+0000] [ALPM] installed bauh (0.9.6-1)
+[2020-08-19T11:11:05+0000] [ALPM] installed i3-default-artwork (20190912-1)
+[2020-08-19T11:11:05+0000] [ALPM] installed artwork-i3 (20190912-1)
+[2020-08-19T11:11:05+0000] [ALPM] installed m4 (1.4.18-3)
+[2020-08-19T11:11:05+0000] [ALPM] installed autoconf (2.69-7)
+[2020-08-19T11:11:05+0000] [ALPM] installed automake (1.16.2-3)
+[2020-08-19T11:11:05+0000] [ALPM] installed libmicrohttpd (0.9.71-1)
+[2020-08-19T11:11:05+0000] [ALPM] installed elfutils (0.180-1)
+[2020-08-19T11:11:05+0000] [ALPM] installed binutils (2.34-5)
+[2020-08-19T11:11:05+0000] [ALPM] installed bison (3.6.4-1)
+[2020-08-19T11:11:05+0000] [ALPM] installed libical (3.0.8-2)
+[2020-08-19T11:11:05+0000] [ALPM] installed bluez (5.54-2)
+[2020-08-19T11:11:05+0000] [ALPM] installed bluez-libs (5.54-2)
+[2020-08-19T11:11:05+0000] [ALPM] installed jansson (2.13.1-1)
+[2020-08-19T11:11:05+0000] [ALPM] installed libnm (1.26.0-1)
+[2020-08-19T11:11:05+0000] [ALPM] installed blueman (2.1.3-1)
+[2020-08-19T11:11:05+0000] [ALPM] installed bluez-utils (5.54-2)
+[2020-08-19T11:11:05+0000] [ALPM] installed expac (10-2)
+[2020-08-19T11:11:06+0000] [ALPM] installed fzf (0.22.0-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed pacui (1.14-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed ncdu (1.15.1-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed xorg-xinput (1.6.3-2)
+[2020-08-19T11:11:06+0000] [ALPM] installed inxi (3.1.05+2-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed ranger (1.9.3.4.gd8c363c9-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed powertop (2.13-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed libdiscid (0.6.2-3)
+[2020-08-19T11:11:06+0000] [ALPM] installed cmus (2.8.0-4)
+[2020-08-19T11:11:06+0000] [ALPM] installed lshw (B.02.19.2-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed dmidecode (3.2-2)
+[2020-08-19T11:11:06+0000] [ALPM] installed bmenu (0.13-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed gtk2 (2.24.32-2)
+[2020-08-19T11:11:06+0000] [ALPM] installed libdbusmenu-glib (16.04.0-4)
+[2020-08-19T11:11:06+0000] [ALPM] installed libdbusmenu-gtk2 (16.04.0-4)
+[2020-08-19T11:11:06+0000] [ALPM] installed libindicator-gtk2 (12.10.1-9)
+[2020-08-19T11:11:06+0000] [ALPM] installed libappindicator-gtk2 (12.10.0.r296-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed clipit (1:1.4.3-2)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-zope-interface (5.1.0-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-click (7.1.2-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-incremental (17.5.0-4)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-constantly (15.1.0-6)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-attrs (19.3.0-4)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-automat (20.2.0-2)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-hyperlink (19.0.0-6)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-pyhamcrest (1.9.0-5)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-twisted (20.3.0-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-ply (3.11-5)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-pycparser (2.20-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-cffi (1.14.1-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-asn1crypto (1.4.0-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-cryptography (3.0-1)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-pyopenssl (19.1.0-2)
+[2020-08-19T11:11:06+0000] [ALPM] installed python-pyasn1 (0.4.8-2)
+[2020-08-19T11:11:07+0000] [ALPM] installed python-pyasn1-modules (0.2.8-1)
+[2020-08-19T11:11:07+0000] [ALPM] installed python-service-identity (18.1.0-4)
+[2020-08-19T11:11:07+0000] [ALPM] installed python-rencode (1.0.6-3)
+[2020-08-19T11:11:07+0000] [ALPM] installed python-pyxdg (0.26-6)
+[2020-08-19T11:11:07+0000] [ALPM] installed python-setproctitle (1.1.10-5)
+[2020-08-19T11:11:07+0000] [ALPM] installed openjpeg2 (2.3.1-2)
+[2020-08-19T11:11:07+0000] [ALPM] installed libimagequant (2.12.6-1)
+[2020-08-19T11:11:07+0000] [ALPM] installed python-pillow (7.2.0-1)
+[2020-08-19T11:11:07+0000] [ALPM] installed python-dbus-common (1.2.16-1)
+[2020-08-19T11:11:07+0000] [ALPM] installed python-dbus (1.2.16-1)
+[2020-08-19T11:11:07+0000] [ALPM] installed python-distro (1.5.0-1)
+[2020-08-19T11:11:07+0000] [ALPM] installed boost-libs (1.72.0-2)
+[2020-08-19T11:11:07+0000] [ALPM] installed libtorrent-rasterbar (1:1.2.7-1)
+[2020-08-19T11:11:07+0000] [ALPM] installed geoip-database (20200721-1)
+[2020-08-19T11:11:07+0000] [ALPM] installed geoip (1.6.12-2)
+[2020-08-19T11:11:07+0000] [ALPM] installed python-geoip (1.3.2-8)
+[2020-08-19T11:11:07+0000] [ALPM] installed python-markupsafe (1.1.1-4)
+[2020-08-19T11:11:07+0000] [ALPM] installed python-beaker (1.11.0-4)
+[2020-08-19T11:11:07+0000] [ALPM] installed python-mako (1.1.3-1)
+[2020-08-19T11:11:07+0000] [ALPM] installed deluge (2.0.4.dev38+g23a48dd01-2)
+[2020-08-19T11:11:07+0000] [ALPM] installed dfc (3.1.1-3)
+[2020-08-19T11:11:07+0000] [ALPM] installed downgrade (8.1.0-1)
+[2020-08-19T11:11:07+0000] [ALPM] installed poppler (0.90.1-1)
+[2020-08-19T11:11:07+0000] [ALPM] installed poppler-glib (0.90.1-1)
+[2020-08-19T11:11:07+0000] [ALPM] installed epdfview (0.1.8-11)
+[2020-08-19T11:11:07+0000] [ALPM] installed fakeroot (1.24-2)
+[2020-08-19T11:11:08+0000] [ALPM] installed aom (2.0.0-1)
+[2020-08-19T11:11:08+0000] [ALPM] installed gsm (1.0.19-1)
+[2020-08-19T11:11:08+0000] [ALPM] installed flac (1.3.3-2)
+[2020-08-19T11:11:08+0000] [ALPM] installed libsndfile (1.0.28-3)
+[2020-08-19T11:11:08+0000] [ALPM] installed zita-alsa-pcmi (0.3.2-3)
+[2020-08-19T11:11:08+0000] [ALPM] installed zita-resampler (1.6.2-3)
+[2020-08-19T11:11:08+0000] [ALPM] installed jack (0.125.0-9)
+[2020-08-19T11:11:08+0000] [ALPM] installed lame (3.100-3)
+[2020-08-19T11:11:08+0000] [ALPM] installed libass (0.14.0-2)
+[2020-08-19T11:11:08+0000] [ALPM] installed libraw1394 (2.1.2-3)
+[2020-08-19T11:11:08+0000] [ALPM] installed libavc1394 (0.5.4-4)
+[2020-08-19T11:11:08+0000] [ALPM] installed libbluray (1.2.0-3)
+[2020-08-19T11:11:08+0000] [ALPM] installed dav1d (0.7.1-1)
+[2020-08-19T11:11:08+0000] [ALPM] installed libiec61883 (1.2.0-6)
+[2020-08-19T11:11:08+0000] [ALPM] installed libmfx (20.2.1-1)
+[2020-08-19T11:11:08+0000] [ALPM] installed libmodplug (0.8.9.0-3)
+[2020-08-19T11:11:08+0000] [ALPM] installed libasyncns (0.8+3+g68cd5af-3)
+[2020-08-19T11:11:08+0000] [ALPM] installed libpulse (13.0-3)
+[2020-08-19T11:11:08+0000] [ALPM] installed rav1e (0.3.3-1)
+[2020-08-19T11:11:08+0000] [ALPM] installed libsoxr (0.1.3-2)
+[2020-08-19T11:11:08+0000] [ALPM] installed libssh (0.9.4-1)
+[2020-08-19T11:11:08+0000] [ALPM] installed libtheora (1.1.1-5)
+[2020-08-19T11:11:08+0000] [ALPM] installed libva (2.8.0-1)
+[2020-08-19T11:11:08+0000] [ALPM] installed libvdpau (1.4-1)
+[2020-08-19T11:11:08+0000] [ALPM] installed vid.stab (1.1-3)
+[2020-08-19T11:11:08+0000] [ALPM] installed libvpx (1.9.0-1)
+[2020-08-19T11:11:08+0000] [ALPM] installed giflib (5.2.1-2)
+[2020-08-19T11:11:08+0000] [ALPM] installed libwebp (1.1.0-1)
+[2020-08-19T11:11:08+0000] [ALPM] installed l-smash (2.14.5-2)
+[2020-08-19T11:11:08+0000] [ALPM] installed x264 (3:0.160.r3011.cde9a93-1)
+[2020-08-19T11:11:08+0000] [ALPM] installed x265 (3.4-1)
+[2020-08-19T11:11:08+0000] [ALPM] installed libxv (1.0.11-4)
+[2020-08-19T11:11:08+0000] [ALPM] installed xvidcore (1.3.7-2)
+[2020-08-19T11:11:08+0000] [ALPM] installed opencore-amr (0.1.5-4)
+[2020-08-19T11:11:08+0000] [ALPM] installed opus (1.3.1-2)
+[2020-08-19T11:11:08+0000] [ALPM] installed libibus (1.5.22+8+gf591381e-1)
+[2020-08-19T11:11:08+0000] [ALPM] installed hidapi (0.9.0-2)
+[2020-08-19T11:11:08+0000] [ALPM] installed sdl2 (2.0.12-2)
+[2020-08-19T11:11:08+0000] [ALPM] installed speexdsp (1.2.0-2)
+[2020-08-19T11:11:08+0000] [ALPM] installed speex (1.2.0-3)
+[2020-08-19T11:11:08+0000] [ALPM] installed srt (1.4.1-2)
+[2020-08-19T11:11:08+0000] [ALPM] installed v4l-utils (1.20.0-1)
+[2020-08-19T11:11:08+0000] [ALPM] installed vmaf (1.5.2-1)
+[2020-08-19T11:11:09+0000] [ALPM] installed ffmpeg (2:4.3.1-2)
+[2020-08-19T11:11:09+0000] [ALPM] installed ffmpegthumbnailer (2.2.2-2)
+[2020-08-19T11:11:09+0000] [ALPM] installed flex (2.6.4-3)
+[2020-08-19T11:11:09+0000] [ALPM] installed libmpc (1.1.0-2)
+[2020-08-19T11:11:09+0000] [ALPM] installed gcc (10.1.0-2)
+[2020-08-19T11:11:09+0000] [ALPM] installed gcolor2 (0.4-9)
+[2020-08-19T11:11:09+0000] [ALPM] installed babl (0.1.78-1)
+[2020-08-19T11:11:10+0000] [ALPM] installed dbus-glib (0.110-2)
+[2020-08-19T11:11:10+0000] [ALPM] installed libspiro (1:20200505-1)
+[2020-08-19T11:11:10+0000] [ALPM] installed exiv2 (0.27.2-2)
+[2020-08-19T11:11:10+0000] [ALPM] installed libgexiv2 (0.12.1-1)
+[2020-08-19T11:11:10+0000] [ALPM] installed jasper (2.0.17-1)
+[2020-08-19T11:11:10+0000] [ALPM] installed libraw (0.20.0-1)
+[2020-08-19T11:11:10+0000] [ALPM] installed openexr (2.5.2-1)
+[2020-08-19T11:11:10+0000] [ALPM] installed luajit (2.0.5-3)
+[2020-08-19T11:11:10+0000] [ALPM] installed lensfun (0.3.95-2)
+[2020-08-19T11:11:10+0000] [ALPM] installed metis (5.1.0.p8-1)
+[2020-08-19T11:11:10+0000] [ALPM] installed blas (3.9.0-3)
+[2020-08-19T11:11:10+0000] [ALPM] installed lapack (3.9.0-3)
+[2020-08-19T11:11:10+0000] [ALPM] installed tbb (2020.3-1)
+[2020-08-19T11:11:10+0000] [ALPM] installed suitesparse (5.8.1-1)
+[2020-08-19T11:11:10+0000] [ALPM] installed gegl (0.4.24-2)
+[2020-08-19T11:11:10+0000] [ALPM] installed libde265 (1.0.5-2)
+[2020-08-19T11:11:10+0000] [ALPM] installed libheif (1.7.0-2)
+[2020-08-19T11:11:10+0000] [ALPM] installed libexif (0.6.22-1)
+[2020-08-19T11:11:10+0000] [ALPM] installed libmng (2.0.3-3)
+[2020-08-19T11:11:10+0000] [ALPM] installed libmypaint (1.5.1-2)
+[2020-08-19T11:11:10+0000] [ALPM] installed gsfonts (20180524-3)
+[2020-08-19T11:11:10+0000] [ALPM] installed libwmf (0.2.12-2)
+[2020-08-19T11:11:10+0000] [ALPM] installed libxpm (3.5.13-2)
+[2020-08-19T11:11:10+0000] [ALPM] installed mypaint-brushes1 (1.3.1-1)
+[2020-08-19T11:11:10+0000] [ALPM] installed poppler-data (0.4.9-2)
+[2020-08-19T11:11:11+0000] [ALPM] installed gimp (2.10.20-1)
+[2020-08-19T11:11:11+0000] [ALPM] installed perl-error (0.17029-2)
+[2020-08-19T11:11:11+0000] [ALPM] installed perl-mailtools (2.21-4)
+[2020-08-19T11:11:11+0000] [ALPM] installed git (2.28.0-1)
+[2020-08-19T11:11:11+0000] [ALPM] installed gcr (3.36-1)
+[2020-08-19T11:11:11+0000] [ALPM] installed dnssec-anchors (20190629-2)
+[2020-08-19T11:11:11+0000] [ALPM] installed ldns (1.7.1-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed openssh (8.3p1-3)
+[2020-08-19T11:11:12+0000] [ALPM] installed gnome-keyring (1:3.36.0-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed parted (3.3-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed libsigc++ (2.10.3-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed glibmm (2.64.2-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed cairomm (1.12.2-4)
+[2020-08-19T11:11:12+0000] [ALPM] installed pangomm (2.42.1-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed atkmm (2.28.0-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed gtkmm3 (3.24.2-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed gparted (1.1.0-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed gstreamer (1.16.2-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed orc (0.4.31-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed gst-plugins-base-libs (1.16.2-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed gst-libav (1.16.2-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed gst-plugins-bad-libs (1.16.2-13)
+[2020-08-19T11:11:12+0000] [ALPM] installed wavpack (5.3.0-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed gpm (1.20.7.r27.g1fd1941-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed aalib (1.4rc5-14)
+[2020-08-19T11:11:12+0000] [ALPM] installed taglib (1.11.1-4)
+[2020-08-19T11:11:12+0000] [ALPM] installed libdv (1.0.0-9)
+[2020-08-19T11:11:12+0000] [ALPM] installed libshout (1:2.4.3-3)
+[2020-08-19T11:11:12+0000] [ALPM] installed libid3tag (0.15.1b-11)
+[2020-08-19T11:11:12+0000] [ALPM] installed imlib2 (1.7.0-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed libcaca (0.99.beta19-3)
+[2020-08-19T11:11:12+0000] [ALPM] installed mpg123 (1.26.3-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed twolame (0.4.0-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed gst-plugins-good (1.16.2-3)
+[2020-08-19T11:11:12+0000] [ALPM] installed libbs2b (3.1.0-7)
+[2020-08-19T11:11:12+0000] [ALPM] installed chromaprint (1.5.0-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed libdc1394 (2.2.6-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed libdca (0.0.7-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed faac (1.30-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed faad2 (2.9.2-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed libfdk-aac (2.0.1-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed libinstpatch (1.1.5-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed portaudio (1:19.6.0-7)
+[2020-08-19T11:11:12+0000] [ALPM] installed fluidsynth (2.1.4-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed libgme (0.6.3-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed libkate (0.4.1-7)
+[2020-08-19T11:11:12+0000] [ALPM] installed libxslt (1.1.34-5)
+[2020-08-19T11:11:12+0000] [ALPM] installed raptor (2.0.15-13)
+[2020-08-19T11:11:12+0000] [ALPM] installed liblrdf (0.6.1-4)
+[2020-08-19T11:11:12+0000] [ALPM] installed serd (0.30.4-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed sord (0.16.4-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed sratom (0.6.4-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed lilv (0.24.8-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed libmms (0.6.4-3)
+[2020-08-19T11:11:12+0000] [ALPM] installed sdl (1.2.15-14)
+[2020-08-19T11:11:12+0000] [ALPM] installed mjpegtools (2.1.0-5)
+[2020-08-19T11:11:12+0000] [ALPM] installed libmpcdec (1:0.1+r475-3)
+[2020-08-19T11:11:12+0000] [ALPM] installed neon (0.31.2-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed hwloc (2.2.0-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed openmpi (4.0.4-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed fftw (3.3.8-3)
+[2020-08-19T11:11:12+0000] [ALPM] installed libofa (0.9.3-9)
+[2020-08-19T11:11:12+0000] [ALPM] installed openal (1.20.1-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed libdvdread (6.1.1-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed libdvdnav (6.1.0-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed rtmpdump (1:2.4.r96.fa8646d-6)
+[2020-08-19T11:11:12+0000] [ALPM] installed sbc (1.4-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed soundtouch (2.1.2-2)
+[2020-08-19T11:11:12+0000] [ALPM] installed spandsp (0.0.6-3)
+[2020-08-19T11:11:12+0000] [ALPM] installed libsrtp (1:2.3.0-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed zvbi (0.2.35-4)
+[2020-08-19T11:11:12+0000] [ALPM] installed gssdp (1.2.3-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed gupnp (1.2.4-1)
+[2020-08-19T11:11:12+0000] [ALPM] installed gupnp-igd (0.2.5+3+gedd78a6-3)
+[2020-08-19T11:11:12+0000] [ALPM] installed libnice (0.1.17-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed webrtc-audio-processing (0.3.1-2)
+[2020-08-19T11:11:13+0000] [ALPM] installed wildmidi (0.4.3-2)
+[2020-08-19T11:11:13+0000] [ALPM] installed liblqr (0.4.2-3)
+[2020-08-19T11:11:13+0000] [ALPM] installed libraqm (0.7.0-2)
+[2020-08-19T11:11:13+0000] [ALPM] installed imagemagick (7.0.10.26-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed zbar (0.23.1-2)
+[2020-08-19T11:11:13+0000] [ALPM] installed gst-plugins-bad (1.16.2-13)
+[2020-08-19T11:11:13+0000] [ALPM] installed cdparanoia (10.2-8)
+[2020-08-19T11:11:13+0000] [ALPM] installed libvisual (0.4.0-8)
+[2020-08-19T11:11:13+0000] [ALPM] installed graphene (1.10.2-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed gst-plugins-base (1.16.2-2)
+[2020-08-19T11:11:13+0000] [ALPM] installed libmpeg2 (0.5.1-7)
+[2020-08-19T11:11:13+0000] [ALPM] installed a52dec (0.7.4-11)
+[2020-08-19T11:11:13+0000] [ALPM] installed libsidplay (1.36.59-10)
+[2020-08-19T11:11:13+0000] [ALPM] installed libcddb (1.3.2-6)
+[2020-08-19T11:11:13+0000] [ALPM] installed libcdio (2.1.0-2)
+[2020-08-19T11:11:13+0000] [ALPM] installed gst-plugins-ugly (1.16.2-4)
+[2020-08-19T11:11:13+0000] [ALPM] installed gtksourceview-pkgbuild (4-2)
+[2020-08-19T11:11:13+0000] [ALPM] installed ufw (0.36-3)
+[2020-08-19T11:11:13+0000] [ALPM] installed enchant (2.2.8-3)
+[2020-08-19T11:11:13+0000] [ALPM] installed harfbuzz-icu (2.7.0-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed hyphen (2.8.8-3)
+[2020-08-19T11:11:13+0000] [ALPM] installed woff2 (1.0.2-3)
+[2020-08-19T11:11:13+0000] [ALPM] installed libwpe (1.6.0-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed wpebackend-fdo (1.6.1-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed bubblewrap (0.4.1-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed xdg-dbus-proxy (0.1.2-2)
+[2020-08-19T11:11:13+0000] [ALPM] installed webkit2gtk (2.28.4-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed gufw (20.04.1-1.1)
+[2020-08-19T11:11:13+0000] [ALPM] installed fuse3 (3.9.2-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed libcdio-paranoia (10.2+2.0.1-2)
+[2020-08-19T11:11:13+0000] [ALPM] installed libatasmart (0.19-5)
+[2020-08-19T11:11:13+0000] [ALPM] installed gptfdisk (1.0.5-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed libbytesize (2.4-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed ndctl (69-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed volume_key (0.3.12-3)
+[2020-08-19T11:11:13+0000] [ALPM] installed libblockdev (2.24-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed udisks2 (2.9.0-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed gvfs (1.44.1-4)
+[2020-08-19T11:11:13+0000] [ALPM] installed libplist (2.2.0-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed libusbmuxd (2.0.2-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed usbmuxd (1.1.1-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed libimobiledevice (1.3.0-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed gvfs-afc (1.44.1-4)
+[2020-08-19T11:11:13+0000] [ALPM] installed gd (2.3.0-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed libgphoto2 (2.5.25-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed gvfs-gphoto2 (1.44.1-4)
+[2020-08-19T11:11:13+0000] [ALPM] installed libmtp (1.1.17-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed gvfs-mtp (1.44.1-4)
+[2020-08-19T11:11:13+0000] [ALPM] installed talloc (2.3.1-2)
+[2020-08-19T11:11:13+0000] [ALPM] installed cifs-utils (6.10-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed tevent (1:0.10.2-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed lmdb (0.9.25-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed ldb (1:2.1.3-1)
+[2020-08-19T11:11:13+0000] [ALPM] installed libbsd (0.10.0-2)
+[2020-08-19T11:11:14+0000] [ALPM] installed smbclient (4.12.3-2)
+[2020-08-19T11:11:14+0000] [ALPM] installed gvfs-smb (1.44.1-4)
+[2020-08-19T11:11:14+0000] [ALPM] installed hexchat (2.14.3-3)
+[2020-08-19T11:11:14+0000] [ALPM] installed htop (2.2.0-3)
+[2020-08-19T11:11:14+0000] [ALPM] installed qt5-svg (5.15.0-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed qt5-x11extras (5.15.0-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed kwindowsystem (5.73.0-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed kvantum-qt5 (0.16.1-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed kvantum-manjaro (0.13.5-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed libdvdcss (1.4.2-2)
+[2020-08-19T11:11:14+0000] [ALPM] installed sg3_utils (1.45-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed libgpod (0.8.3-11)
+[2020-08-19T11:11:14+0000] [ALPM] installed libxkbfile (1.1.0-2)
+[2020-08-19T11:11:14+0000] [ALPM] installed libxklavier (5.4-3)
+[2020-08-19T11:11:14+0000] [ALPM] installed lightdm (1:1.30.0-3)
+[2020-08-19T11:11:14+0000] [ALPM] installed lightdm-slick-greeter (1.3.2-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed python-psutil (5.7.2-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed python-xapp (2.0.0-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed lightdm-settings (1.3.3-1)
+[2020-08-19T11:11:14+0000] [ALPM-SCRIPTLET] Running in chroot, ignoring request: is-active
+[2020-08-19T11:11:14+0000] [ALPM-SCRIPTLET] 
+[2020-08-19T11:11:14+0000] [ALPM-SCRIPTLET] [m[1m[34m==>[m[1m[33m NOTE:[m[1m We have enabled autologin for all users.[m
+[2020-08-19T11:11:14+0000] [ALPM-SCRIPTLET] [m[1m[34m==>[m[1m[33m NOTE:[m[1m Reboot your system the first time, so changes will take affect.[m
+[2020-08-19T11:11:14+0000] [ALPM-SCRIPTLET] 
+[2020-08-19T11:11:14+0000] [ALPM] installed lxappearance (0.6.3-3)
+[2020-08-19T11:11:14+0000] [ALPM] installed lxinput (0.3.5-3)
+[2020-08-19T11:11:14+0000] [ALPM] installed maia-console (1.2-6)
+[2020-08-19T11:11:14+0000] [ALPM-SCRIPTLET] Running in chroot, ignoring request: daemon-reload
+[2020-08-19T11:11:14+0000] [ALPM] installed gc (8.0.4-4)
+[2020-08-19T11:11:14+0000] [ALPM] installed guile (2.2.6-2)
+[2020-08-19T11:11:14+0000] [ALPM] installed make (4.3-3)
+[2020-08-19T11:11:14+0000] [ALPM] installed manjaro-icons (20191015-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed vte-common (0.60.3-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed vte3 (0.60.3-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed gcab (1.4-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed libstemmer (0+713-2)
+[2020-08-19T11:11:14+0000] [ALPM] installed appstream-glib (0.7.17-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed archlinux-appstream-data (20200612-1.1)
+[2020-08-19T11:11:14+0000] [ALPM] installed pamac-common (9.5.7-5)
+[2020-08-19T11:11:14+0000] [ALPM-SCRIPTLET] ==> An authentication agent is required
+[2020-08-19T11:11:14+0000] [ALPM-SCRIPTLET]     Cinnamon, Deepin, GNOME, GNOME Flashback, KDE, LXDE, LXQt, MATE and Xfce
+[2020-08-19T11:11:14+0000] [ALPM-SCRIPTLET]     have an authentication agent already.
+[2020-08-19T11:11:14+0000] [ALPM-SCRIPTLET]     See https://wiki.archlinux.org/index.php/Polkit#Authentication_agents
+[2020-08-19T11:11:14+0000] [ALPM-SCRIPTLET]     for other desktop environments.
+[2020-08-19T11:11:14+0000] [ALPM] installed pamac-cli (9.5.7-5)
+[2020-08-19T11:11:14+0000] [ALPM] installed manjaro-application-utility (1.3.3-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed manjaro-browser-settings (20200629-1)
+[2020-08-19T11:11:14+0000] [ALPM] installed manjaro-hello (0.6.5-11)
+[2020-08-19T11:11:14+0000] [ALPM] installed manjaro-hotfixes (2018.08-6)
+[2020-08-19T11:11:15+0000] [ALPM] installed adapta-maia-theme (3.94.0.149-2)
+[2020-08-19T11:11:15+0000] [ALPM] installed libconfig (1.7.2-3)
+[2020-08-19T11:11:15+0000] [ALPM] installed libev (4.33-1)
+[2020-08-19T11:11:15+0000] [ALPM] installed picom (8-3)
+[2020-08-19T11:11:15+0000] [ALPM] installed lua (5.4.0-2)
+[2020-08-19T11:11:15+0000] [ALPM] installed wireless_tools (30.pre9-3)
+[2020-08-19T11:11:15+0000] [ALPM] installed libxnvctrl (450.57-1)
+[2020-08-19T11:11:15+0000] [ALPM] installed conky (1.11.5+2+g0d449029-2)
+[2020-08-19T11:11:15+0000] [ALPM] installed ttf-bitstream-vera (1.10-14)
+[2020-08-19T11:11:15+0000] [ALPM] installed conky-i3 (20180507-1)
+[2020-08-19T11:11:15+0000] [ALPM] installed noto-fonts (20190926-4)
+[2020-08-19T11:11:15+0000] [ALPM] installed dmenu-manjaro (4.9-5)
+[2020-08-19T11:11:15+0000] [ALPM-SCRIPTLET] 
+[2020-08-19T11:11:15+0000] [ALPM-SCRIPTLET] >>> Font, colour and your preferred terminal application for dmenu
+[2020-08-19T11:11:15+0000] [ALPM-SCRIPTLET]     can be set in ~/.dmenurc
+[2020-08-19T11:11:15+0000] [ALPM-SCRIPTLET] 
+[2020-08-19T11:11:15+0000] [ALPM] installed libxss (1.2.3-3)
+[2020-08-19T11:11:15+0000] [ALPM] installed dunstify (1.4.1-2)
+[2020-08-19T11:11:15+0000] [ALPM] installed dunst (1.4.1-2)
+[2020-08-19T11:11:15+0000] [ALPM] installed xcb-util-xrm (1.3-2)
+[2020-08-19T11:11:15+0000] [ALPM] installed i3lock (2.12-2)
+[2020-08-19T11:11:15+0000] [ALPM] installed xcb-util-cursor (0.1.3-3)
+[2020-08-19T11:11:15+0000] [ALPM] installed yajl (2.1.0-3)
+[2020-08-19T11:11:15+0000] [ALPM] installed startup-notification (0.12-7)
+[2020-08-19T11:11:15+0000] [ALPM] installed i3-gaps (4.18.2-2)
+[2020-08-19T11:11:15+0000] [ALPM] installed i3exit (20200217-1)
+[2020-08-19T11:11:15+0000] [ALPM] installed i3-scripts (20200804-1)
+[2020-08-19T11:11:15+0000] [ALPM] installed giblib (1.2.4-8)
+[2020-08-19T11:11:15+0000] [ALPM] installed scrot (1.4-1)
+[2020-08-19T11:11:15+0000] [ALPM] installed xdg-user-dirs (0.17-3)
+[2020-08-19T11:11:15+0000] [ALPM-SCRIPTLET] Created symlink /etc/systemd/user/default.target.wants/xdg-user-dirs-update.service -> /usr/lib/systemd/user/xdg-user-dirs-update.service.
+[2020-08-19T11:11:15+0000] [ALPM] installed i3-scrot (2-2)
+[2020-08-19T11:11:15+0000] [ALPM] installed i3-help (20180110-1)
+[2020-08-19T11:11:15+0000] [ALPM] installed confuse (3.3-1)
+[2020-08-19T11:11:15+0000] [ALPM] installed ttf-font-icons (1.1-5)
+[2020-08-19T11:11:15+0000] [ALPM] installed i3status-manjaro (2.13-3)
+[2020-08-19T11:11:15+0000] [ALPM] installed manjaro-base-skel (20171029-3)
+[2020-08-19T11:11:15+0000] [ALPM] installed nerd-fonts-terminus (2.1.0-3)
+[2020-08-19T11:11:15+0000] [ALPM-SCRIPTLET] Updating font cache... /tmp/alpm_MSw00S/.INSTALL: line 4: mkfontscale: command not found
+[2020-08-19T11:11:15+0000] [ALPM-SCRIPTLET] /tmp/alpm_MSw00S/.INSTALL: line 5: mkfontdir: command not found
+[2020-08-19T11:11:15+0000] [ALPM-SCRIPTLET] done
+[2020-08-19T11:11:15+0000] [ALPM] installed gtkmm (1:2.24.5-4)
+[2020-08-19T11:11:15+0000] [ALPM] installed nitrogen (1.6.1-3)
+[2020-08-19T11:11:30+0000] [ALPM] installed papirus-icon-theme (20200801-1)
+[2020-08-19T11:11:32+0000] [ALPM] installed papirus-maia-icon-theme (20200201-1)
+[2020-08-19T11:11:32+0000] [ALPM] installed rxvt-unicode-terminfo (9.22-10)
+[2020-08-19T11:11:32+0000] [ALPM] installed rxvt-unicode (9.22-10)
+[2020-08-19T11:11:32+0000] [ALPM] installed xsel (1.2.0.20190821-1)
+[2020-08-19T11:11:32+0000] [ALPM] installed urxvt-perls (2.3-1)
+[2020-08-19T11:11:32+0000] [ALPM-SCRIPTLET] -> To enable extensions place the following in ~/.Xresources
+[2020-08-19T11:11:32+0000] [ALPM-SCRIPTLET]    (change to whatever suits your needs)
+[2020-08-19T11:11:32+0000] [ALPM-SCRIPTLET]  URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select
+[2020-08-19T11:11:32+0000] [ALPM-SCRIPTLET]  URxvt.url-select.launcher:  chromium
+[2020-08-19T11:11:32+0000] [ALPM-SCRIPTLET]  URxvt.url-select.underline: true
+[2020-08-19T11:11:32+0000] [ALPM-SCRIPTLET]  URxvt.keysym.M-u:           perl:url-select:select_next
+[2020-08-19T11:11:32+0000] [ALPM-SCRIPTLET]  URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+[2020-08-19T11:11:32+0000] [ALPM-SCRIPTLET]  URxvt.keysym.M-s:           perl:keyboard-select:search
+[2020-08-19T11:11:33+0000] [ALPM] installed xcursor-breeze (5.11.5-1)
+[2020-08-19T11:11:33+0000] [ALPM] installed xorg-fonts-alias-misc (1.0.4-1)
+[2020-08-19T11:11:33+0000] [ALPM] installed xorg-fonts-misc (1.0.3-9)
+[2020-08-19T11:11:33+0000] [ALPM] installed xorg-fonts-encodings (1.0.5-2)
+[2020-08-19T11:11:33+0000] [ALPM] installed libfontenc (1.1.4-3)
+[2020-08-19T11:11:33+0000] [ALPM] installed xorg-mkfontscale (1.2.1-2)
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] Creating X fontdir indices... done.
+[2020-08-19T11:11:34+0000] [ALPM] installed manjaro-i3-settings (20200804-1)
+[2020-08-19T11:11:34+0000] [ALPM] installed qpdf (10.0.1-1)
+[2020-08-19T11:11:34+0000] [ALPM] installed liblouis (3.14.0-2)
+[2020-08-19T11:11:34+0000] [ALPM] installed ijs (0.35-3)
+[2020-08-19T11:11:34+0000] [ALPM] installed cups-filters (1.27.5-1)
+[2020-08-19T11:11:34+0000] [ALPM] installed bc (1.07.1-4)
+[2020-08-19T11:11:34+0000] [ALPM] installed libpaper (1.1.28-1)
+[2020-08-19T11:11:34+0000] [ALPM] installed cups (2.3.3-2)
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] >> If you use an HTTPS connection to CUPS, the first time you access
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] >> the interface it may take a very long time before the site comes up.
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] >> This is because the first request triggers the generation of the CUPS
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] >> SSL certificates which can be a very time-consuming job.
+[2020-08-19T11:11:34+0000] [ALPM] installed jbig2dec (0.18-1)
+[2020-08-19T11:11:34+0000] [ALPM] installed libidn (1.36-1)
+[2020-08-19T11:11:34+0000] [ALPM] installed ghostscript (9.52-1)
+[2020-08-19T11:11:34+0000] [ALPM] installed cups-pdf (3.0.1-5)
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] -------------------------------------------------
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] To use cups-pdf, restart cups and visit the cups
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] web interface at http://localhost:631/
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] 
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] You can now add a "Virtual Printer (PDF Printer)"
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] and use the Postscript/Generic postscript color
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] printer driver.
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] 
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] Note that cups-pdf has a configuration
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] file in /etc/cups. The default location for
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] pdf output is /var/spool/cups-pdf/$username.
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] -------------------------------------------------
+[2020-08-19T11:11:34+0000] [ALPM] installed cups-pk-helper (0.2.6-4)
+[2020-08-19T11:11:34+0000] [ALPM] installed gutenprint (5.3.3-2)
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] >>please run /usr/bin/cups-genppdupdate
+[2020-08-19T11:11:34+0000] [ALPM-SCRIPTLET] >>and restart cups daemon
+[2020-08-19T11:11:34+0000] [ALPM] installed net-snmp (5.8-6)
+[2020-08-19T11:11:34+0000] [ALPM] installed perl-capture-tiny (0.48-4)
+[2020-08-19T11:11:34+0000] [ALPM] installed perl-ffi-checklib (0.27-2)
+[2020-08-19T11:11:34+0000] [ALPM] installed perl-file-chdir (0.1011-4)
+[2020-08-19T11:11:34+0000] [ALPM] installed perl-file-which (1.23-4)
+[2020-08-19T11:11:34+0000] [ALPM] installed perl-path-tiny (0.112-2)
+[2020-08-19T11:11:34+0000] [ALPM] installed perl-alien-build (2.29-1)
+[2020-08-19T11:11:34+0000] [ALPM] installed perl-alien-libxml2 (0.16-2)
+[2020-08-19T11:11:34+0000] [ALPM] installed perl-xml-sax-base (1.09-4)
+[2020-08-19T11:11:34+0000] [ALPM] installed perl-xml-namespacesupport (1.12-4)
+[2020-08-19T11:11:34+0000] [ALPM] installed perl-xml-sax (1.02-1)
+[2020-08-19T11:11:34+0000] [ALPM] installed perl-xml-libxml (2.0205-2)
+[2020-08-19T11:11:35+0000] [ALPM-SCRIPTLET] :: Installing SAX XML Parsers
+[2020-08-19T11:11:35+0000] [ALPM] installed perl-dbi (1.643-2)
+[2020-08-19T11:11:35+0000] [ALPM] installed foomatic-db-engine (4:20200206-1)
+[2020-08-19T11:11:35+0000] [ALPM] installed hplip (1:3.20.6-2)
+[2020-08-19T11:11:36+0000] [ALPM] installed foomatic-db (3:20200529-1)
+[2020-08-19T11:11:36+0000] [ALPM] installed foomatic-db-gutenprint-ppds (5.3.3-2)
+[2020-08-19T11:11:36+0000] [ALPM] installed python-pysmbc (1.0.20-1)
+[2020-08-19T11:11:36+0000] [ALPM] installed python-msgpack (1.0.0-1)
+[2020-08-19T11:11:36+0000] [ALPM] installed python-cachecontrol (0.12.6-1)
+[2020-08-19T11:11:36+0000] [ALPM] installed python-contextlib2 (0.6.0.post1-1)
+[2020-08-19T11:11:36+0000] [ALPM] installed python-distlib (0.3.1-1)
+[2020-08-19T11:11:36+0000] [ALPM] installed python-webencodings (0.5.1-4)
+[2020-08-19T11:11:36+0000] [ALPM] installed python-html5lib (1.1-1)
+[2020-08-19T11:11:36+0000] [ALPM] installed python-toml (0.10.1-1)
+[2020-08-19T11:11:36+0000] [ALPM] installed python-pep517 (0.8.2-1)
+[2020-08-19T11:11:36+0000] [ALPM] installed python-progress (1.5-3)
+[2020-08-19T11:11:36+0000] [ALPM] installed python-retrying (1.3.3-7)
+[2020-08-19T11:11:37+0000] [ALPM] installed python-resolvelib (0.4.0-1)
+[2020-08-19T11:11:37+0000] [ALPM] installed python-pip (20.1.1-1)
+[2020-08-19T11:11:37+0000] [ALPM] installed python-reportlab (3.5.47-1)
+[2020-08-19T11:11:37+0000] [ALPM] installed splix (2.0.0-15)
+[2020-08-19T11:11:37+0000] [ALPM-SCRIPTLET] Installation of the color profile for color printers:
+[2020-08-19T11:11:37+0000] [ALPM-SCRIPTLET] -----------------------------------------------------
+[2020-08-19T11:11:37+0000] [ALPM-SCRIPTLET] 
+[2020-08-19T11:11:37+0000] [ALPM-SCRIPTLET] 	Color printers need color profile files to get better results. These
+[2020-08-19T11:11:37+0000] [ALPM-SCRIPTLET] files are provided by your printer manufacturer and you have to install them
+[2020-08-19T11:11:37+0000] [ALPM-SCRIPTLET] manually. To do that, download the official linux drivers and locate the "cms"
+[2020-08-19T11:11:37+0000] [ALPM-SCRIPTLET] directory. Install the contents to "/usr/share/cups/profiles/$MANUFACTURER".
+[2020-08-19T11:11:37+0000] [ALPM-SCRIPTLET] 
+[2020-08-19T11:11:37+0000] [ALPM-SCRIPTLET] 	Samsung color profile files are available at:
+[2020-08-19T11:11:37+0000] [ALPM-SCRIPTLET] 		(Then use MANUFACTURER=samsung)
+[2020-08-19T11:11:37+0000] [ALPM-SCRIPTLET] 		http://splix.ap2c.org/samsung_cms.tar.bz2
+[2020-08-19T11:11:37+0000] [ALPM] installed libieee1284 (0.2.11-9)
+[2020-08-19T11:11:37+0000] [ALPM] installed sane (1.0.30-1)
+[2020-08-19T11:11:37+0000] [ALPM] installed colord-sane (1.4.4+9+g1ce26da-2)
+[2020-08-19T11:11:37+0000] [ALPM] installed manjaro-printer (20200215-2)
+[2020-08-19T11:11:37+0000] [ALPM] installed atool (0.39.0-7)
+[2020-08-19T11:11:37+0000] [ALPM] installed python-xlib (0.27-1)
+[2020-08-19T11:11:37+0000] [ALPM] installed python-docopt (0.6.2-7)
+[2020-08-19T11:11:37+0000] [ALPM] installed python-ueberzug (18.1.5-3)
+[2020-08-19T11:11:37+0000] [ALPM] installed highlight (3.57-2)
+[2020-08-19T11:11:37+0000] [ALPM] installed perl-image-exiftool (12.00-2)
+[2020-08-19T11:11:37+0000] [ALPM] installed libzen (0.4.38-2)
+[2020-08-19T11:11:37+0000] [ALPM] installed libmediainfo (20.03-1)
+[2020-08-19T11:11:37+0000] [ALPM] installed mediainfo (20.03-1)
+[2020-08-19T11:11:37+0000] [ALPM] installed manjaro-ranger-settings (20190513-2)
+[2020-08-19T11:11:37+0000] [ALPM] installed kitemmodels (5.73.0-1)
+[2020-08-19T11:11:37+0000] [ALPM] installed kcoreaddons (5.73.0-1)
+[2020-08-19T11:11:37+0000] [ALPM] installed polkit-qt5 (0.113.0-2)
+[2020-08-19T11:11:37+0000] [ALPM] installed kauth (5.73.0-1)
+[2020-08-19T11:11:37+0000] [ALPM] installed ckbcomp (1.194-1)
+[2020-08-19T11:11:37+0000] [ALPM] installed manjaro-settings-manager (0.5.6-10)
+[2020-08-19T11:11:37+0000] [ALPM] installed manjaro-settings-manager-notifier (0.5.6-10)
+[2020-08-19T11:11:37+0000] [ALPM] installed libzip (1.6.1-2)
+[2020-08-19T11:11:37+0000] [ALPM] installed oniguruma (6.9.5_rev1-1)
+[2020-08-19T11:11:37+0000] [ALPM] installed php (7.4.9-1)
+[2020-08-19T11:11:37+0000] [ALPM] installed zenity (3.32.0+50+gc229637-1)
+[2020-08-19T11:11:37+0000] [ALPM] installed markdown_previewer (0.r6.64ad4d7-1)
+[2020-08-19T11:11:37+0000] [ALPM] installed gtk-engine-murrine (0.98.2-4)
+[2020-08-19T11:11:37+0000] [ALPM] installed gtk-engines (2.21.0-5)
+[2020-08-19T11:11:38+0000] [ALPM] installed matcha-gtk-theme (20200727-1)
+[2020-08-19T11:11:38+0000] [ALPM] installed glu (9.0.1-2)
+[2020-08-19T11:11:38+0000] [ALPM] installed glew (2.2.0-2)
+[2020-08-19T11:11:38+0000] [ALPM] installed freeglut (3.2.1-2)
+[2020-08-19T11:11:38+0000] [ALPM] installed mesa-demos (8.4.0-4)
+[2020-08-19T11:11:38+0000] [ALPM] installed mlocate (0.26.git.20170220-3)
+[2020-08-19T11:11:38+0000] [ALPM] installed mobile-broadband-provider-info (20190618-2)
+[2020-08-19T11:11:38+0000] [ALPM] installed libmad (0.15.1b-9)
+[2020-08-19T11:11:38+0000] [ALPM] installed moc (1:2.5.2-3)
+[2020-08-19T11:11:38+0000] [ALPM] installed ppp (2.4.7-7)
+[2020-08-19T11:11:38+0000] [ALPM] installed libmbim (1.24.2-1)
+[2020-08-19T11:11:38+0000] [ALPM] installed libqmi (1.26.2-1)
+[2020-08-19T11:11:38+0000] [ALPM] installed libmm-glib (1.14.0-1)
+[2020-08-19T11:11:38+0000] [ALPM] installed modemmanager (1.14.0-1)
+[2020-08-19T11:11:38+0000] [ALPM] installed morc_menu (1.0-2)
+[2020-08-19T11:11:38+0000] [ALPM] installed libxfce4util (4.14.0-2)
+[2020-08-19T11:11:38+0000] [ALPM] installed xfconf (4.14.3-1)
+[2020-08-19T11:11:38+0000] [ALPM] installed gtksourceview3 (3.24.11+28+g73e57b57-1)
+[2020-08-19T11:11:38+0000] [ALPM] installed mousepad (0.4.2-3)
+[2020-08-19T11:11:38+0000] [ALPM] installed openresolv (3.10.0-1)
+[2020-08-19T11:11:38+0000] [ALPM] installed netctl (1.23-1)
+[2020-08-19T11:11:38+0000] [ALPM] installed slang (2.3.2-2)
+[2020-08-19T11:11:38+0000] [ALPM] installed libnewt (0.52.21-3)
+[2020-08-19T11:11:38+0000] [ALPM] installed libndp (1.7-2)
+[2020-08-19T11:11:38+0000] [ALPM] installed libsodium (1.0.18-2)
+[2020-08-19T11:11:38+0000] [ALPM] installed libpgm (5.2.122-5)
+[2020-08-19T11:11:38+0000] [ALPM] installed zeromq (4.3.2-2)
+[2020-08-19T11:11:38+0000] [ALPM] installed libteam (1.31-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed networkmanager (1.26.0-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed libnma (1.8.30-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed nm-connection-editor (1.18.0-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed libdbusmenu-gtk3 (16.04.0-4)
+[2020-08-19T11:11:39+0000] [ALPM] installed libindicator-gtk3 (12.10.1-9)
+[2020-08-19T11:11:39+0000] [ALPM] installed libappindicator-gtk3 (12.10.0.r296-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed network-manager-applet (1.18.0-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed vpnc (1:0.5.3.r468.r81-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed pcsclite (1.9.0-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed stoken (0.92-4)
+[2020-08-19T11:11:39+0000] [ALPM] installed openconnect (1:8.10-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed networkmanager-openconnect (1.2.6-2)
+[2020-08-19T11:11:39+0000] [ALPM] installed pkcs11-helper (1.26.0-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed openvpn (2.4.9-2)
+[2020-08-19T11:11:39+0000] [ALPM] installed networkmanager-openvpn (1.8.12-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed pptpclient (1.10.0-2)
+[2020-08-19T11:11:39+0000] [ALPM] installed networkmanager-pptp (1.2.9dev+10+gb41b0d0-2)
+[2020-08-19T11:11:39+0000] [ALPM] installed networkmanager-vpnc (1.2.7dev+20+gdca3aea-2)
+[2020-08-19T11:11:39+0000] [ALPM] installed nss-mdns (0.14.1-3)
+[2020-08-19T11:11:39+0000] [ALPM] installed ntp (4.2.8.p15-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed p7zip (16.02-6)
+[2020-08-19T11:11:39+0000] [ALPM] installed mailcap (2.1.49-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed palemoon-bin (28.12.0-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed pamac-gtk (9.5.7-5)
+[2020-08-19T11:11:39+0000] [ALPM-SCRIPTLET] ==> Enable Pamac Updates Indicator via
+[2020-08-19T11:11:39+0000] [ALPM-SCRIPTLET]     Gnome Tweak
+[2020-08-19T11:11:39+0000] [ALPM] installed patch (2.7.6-8)
+[2020-08-19T11:11:39+0000] [ALPM] installed patchutils (0.3.4-4)
+[2020-08-19T11:11:39+0000] [ALPM] installed libfm-extra (1.3.1-2)
+[2020-08-19T11:11:39+0000] [ALPM] installed menu-cache (1.1.0-2)
+[2020-08-19T11:11:39+0000] [ALPM] installed libfm (1.3.1-2)
+[2020-08-19T11:11:39+0000] [ALPM] installed libfm-gtk2 (1.3.1-2)
+[2020-08-19T11:11:39+0000] [ALPM] installed lxmenu-data (0.1.5-3)
+[2020-08-19T11:11:39+0000] [ALPM] installed pcmanfm (1.3.1-2)
+[2020-08-19T11:11:39+0000] [ALPM] installed perl-ipc-system-simple (1.30-2)
+[2020-08-19T11:11:39+0000] [ALPM] installed perl-file-basedir (0.08-5)
+[2020-08-19T11:11:39+0000] [ALPM] installed perl-file-desktopentry (0.22-7)
+[2020-08-19T11:11:39+0000] [ALPM] installed perl-file-mimeinfo (0.29-4)
+[2020-08-19T11:11:39+0000] [ALPM] installed polkit-gnome (0.105-5)
+[2020-08-19T11:11:39+0000] [ALPM] installed qt5ct (1.1-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed qt5-styleplugins (5.0.0.20170311-23)
+[2020-08-19T11:11:39+0000] [ALPM] installed sbxkb (0.7.6-4)
+[2020-08-19T11:11:39+0000] [ALPM] installed xorg-xdpyinfo (1.3.2-4)
+[2020-08-19T11:11:39+0000] [ALPM] installed screenfetch (3.9.1-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed squashfs-tools (4.4-2)
+[2020-08-19T11:11:39+0000] [ALPM] installed snapd (2.45.2-1)
+[2020-08-19T11:11:39+0000] [ALPM] installed speedtest-cli (2.1.2-2)
+[2020-08-19T11:11:39+0000] [ALPM] installed libutf8proc (2.5.0-2)
+[2020-08-19T11:11:39+0000] [ALPM] installed apr (1.7.0-3)
+[2020-08-19T11:11:39+0000] [ALPM] installed apr-util (1.6.1-7)
+[2020-08-19T11:11:39+0000] [ALPM] installed serf (1.3.9-5)
+[2020-08-19T11:11:40+0000] [ALPM] installed subversion (1.14.0-2)
+[2020-08-19T11:11:40+0000] [ALPM] installed libnet (1:1.1.6-1)
+[2020-08-19T11:11:40+0000] [ALPM] installed syslog-ng (3.28.1-2)
+[2020-08-19T11:11:40+0000] [ALPM] installed terminus-font (4.48-3)
+[2020-08-19T11:11:40+0000] [ALPM] installed tree (1.8.0-2)
+[2020-08-19T11:11:40+0000] [ALPM] installed ttf-dejavu (2.37+18+g9b5d1b2f-2)
+[2020-08-19T11:11:40+0000] [ALPM] installed ttf-droid (20121017-7.2)
+[2020-08-19T11:11:40+0000] [ALPM] installed ttf-inconsolata (1:3.000-2)
+[2020-08-19T11:11:40+0000] [ALPM] installed ttf-indic-otf (0.2-11)
+[2020-08-19T11:11:40+0000] [ALPM] installed ttf-liberation (2.1.1-1)
+[2020-08-19T11:11:40+0000] [ALPM] installed upower (0.99.11-3)
+[2020-08-19T11:11:40+0000] [ALPM] installed vertex-maia-themes (20180519-4)
+[2020-08-19T11:11:40+0000] [ALPM-SCRIPTLET] 
+[2020-08-19T11:11:40+0000] [ALPM-SCRIPTLET] [1;1m[1;32m==>[1;0m[1;1m vertex-maia-themes:
+[2020-08-19T11:11:40+0000] [ALPM-SCRIPTLET]   -> For seamless integration of Firefox and Palemoon browsers
+[2020-08-19T11:11:40+0000] [ALPM-SCRIPTLET]   -> please copy the 'chrome' folder of the desired theme to your browser profile
+[2020-08-19T11:11:40+0000] [ALPM-SCRIPTLET]   -> or create a symlink.[1;0m
+[2020-08-19T11:11:40+0000] [ALPM-SCRIPTLET] [1;1m[1;32m==>[1;0m[1;1m For example:
+[2020-08-19T11:11:40+0000] [ALPM-SCRIPTLET]   -> 'ln -s /usr/share/themes/Palemoon/Vertex-Maia-Dark/chrome/ ~/.moonchild\ productions/pale\ moon/<xyz123>.default/chrome'
+[2020-08-19T11:11:40+0000] [ALPM-SCRIPTLET]   [1;0m
+[2020-08-19T11:11:40+0000] [ALPM-SCRIPTLET]   [1;0m
+[2020-08-19T11:11:47+0000] [ALPM] installed vibrancy-icons-teal (2.7-1)
+[2020-08-19T11:11:47+0000] [ALPM] installed viewnior (1.7-3)
+[2020-08-19T11:11:47+0000] [ALPM] installed vim-runtime (8.2.1412-0.1)
+[2020-08-19T11:11:47+0000] [ALPM] installed vim (8.2.1412-0.1)
+[2020-08-19T11:11:47+0000] [ALPM] installed libdvbpsi (1:1.3.3-2)
+[2020-08-19T11:11:47+0000] [ALPM] installed libebml (1.4.0-1)
+[2020-08-19T11:11:47+0000] [ALPM] installed libmatroska (1.6.2-1)
+[2020-08-19T11:11:47+0000] [ALPM] installed libupnp (1.6.25-2)
+[2020-08-19T11:11:47+0000] [ALPM] installed libtar (1.2.20-5)
+[2020-08-19T11:11:47+0000] [ALPM] installed spirv-tools (2020.2-1)
+[2020-08-19T11:11:47+0000] [ALPM] installed glslang (8.13.3743-1)
+[2020-08-19T11:11:47+0000] [ALPM] installed shaderc (2020.0-1)
+[2020-08-19T11:11:47+0000] [ALPM] installed libplacebo (1.29.1-3)
+[2020-08-19T11:11:47+0000] [ALPM] installed aribb24 (1.0.3-3)
+[2020-08-19T11:11:48+0000] [ALPM] installed vlc (3.0.11.1-1)
+[2020-08-19T11:11:48+0000] [ALPM] installed volumeicon (0.5.1-5)
+[2020-08-19T11:11:48+0000] [ALPM-SCRIPTLET] If there are problems running volumeicon, try:
+[2020-08-19T11:11:48+0000] [ALPM-SCRIPTLET] rm -iv ~/.config/volumeicon/volumeicon
+[2020-08-19T11:11:48+0000] [ALPM] installed w3m (0.5.3.git20200507-1)
+[2020-08-19T11:11:48+0000] [ALPM] installed wallpapers-juhraya (1.1-2)
+[2020-08-19T11:11:48+0000] [ALPM] installed wmutils (1:1.4-1)
+[2020-08-19T11:11:48+0000] [ALPM] installed xarchiver (0.5.4.15-1)
+[2020-08-19T11:11:48+0000] [ALPM] installed xautolock (2.2-6)
+[2020-08-19T11:11:48+0000] [ALPM] installed xcursor-chameleon-pearl (0.5-5)
+[2020-08-19T11:11:48+0000] [ALPM] installed xcursor-maia (20160417-2)
+[2020-08-19T11:11:48+0000] [ALPM] installed xdotool (3.20160805.1-3)
+[2020-08-19T11:11:48+0000] [ALPM] installed xf86-input-elographics (1.4.2-2)
+[2020-08-19T11:11:48+0000] [ALPM] installed xf86-input-evdev (2.10.6-2)
+[2020-08-19T11:11:48+0000] [ALPM] installed xf86-input-libinput (0.30.0-1)
+[2020-08-19T11:11:48+0000] [ALPM] installed xf86-input-void (1.4.1-5)
+[2020-08-19T11:11:48+0000] [ALPM] installed libburn (1.5.2-2)
+[2020-08-19T11:11:48+0000] [ALPM] installed libisofs (1.5.2-2)
+[2020-08-19T11:11:48+0000] [ALPM] installed libxfce4ui (4.14.1-3.1)
+[2020-08-19T11:11:48+0000] [ALPM] installed exo (0.12.11-5)
+[2020-08-19T11:11:48+0000] [ALPM] installed xfburn (0.6.2-1)
+[2020-08-19T11:11:48+0000] [ALPM] installed xfce4-power-manager (1.6.6-1)
+[2020-08-19T11:11:48+0000] [ALPM] installed xorg-twm (1.0.11-1)
+[2020-08-19T11:11:48+0000] [ALPM] installed xorg-xhost (1.0.8-2)
+[2020-08-19T11:11:48+0000] [ALPM] installed xorg-xauth (1.1-2)
+[2020-08-19T11:11:48+0000] [ALPM] installed xorg-xrdb (1.2.0-2)
+[2020-08-19T11:11:48+0000] [ALPM] installed xorg-xmodmap (1.0.10-2)
+[2020-08-19T11:11:48+0000] [ALPM] installed xorg-xinit (1.4.1-2)
+[2020-08-19T11:11:48+0000] [ALPM] installed xorg-xkill (1.0.5-2)
+[2020-08-19T11:11:49+0000] [ALPM] installed libxaw (1.0.13-3)
+[2020-08-19T11:11:49+0000] [ALPM] installed xorg-luit (1.1.1-4)
+[2020-08-19T11:11:49+0000] [ALPM] installed xbitmaps (1.1.2-2)
+[2020-08-19T11:11:49+0000] [ALPM] installed libutempter (1.2.1-1)
+[2020-08-19T11:11:49+0000] [ALPM] installed xterm (358-1)
+[2020-08-19T11:11:49+0000] [ALPM] installed libxfont2 (2.0.4-3)
+[2020-08-19T11:11:49+0000] [ALPM] installed xorg-xkbcomp (1.4.3-1)
+[2020-08-19T11:11:49+0000] [ALPM] installed xorg-setxkbmap (1.3.2-2)
+[2020-08-19T11:11:49+0000] [ALPM] installed xorg-server-common (1.20.8-4)
+[2020-08-19T11:11:49+0000] [ALPM] installed xorg-server (1.20.8-4)
+[2020-08-19T11:11:49+0000] [ALPM-SCRIPTLET] >>> xorg-server has now the ability to run without root rights with
+[2020-08-19T11:11:49+0000] [ALPM-SCRIPTLET]     the help of systemd-logind. xserver will fail to run if not launched
+[2020-08-19T11:11:49+0000] [ALPM-SCRIPTLET]     from the same virtual terminal as was used to log in.
+[2020-08-19T11:11:49+0000] [ALPM-SCRIPTLET]     Without root rights, log files will be in ~/.local/share/xorg/ directory.
+[2020-08-19T11:11:49+0000] [ALPM-SCRIPTLET] 
+[2020-08-19T11:11:49+0000] [ALPM-SCRIPTLET]     Old behavior can be restored through Xorg.wrap config file.
+[2020-08-19T11:11:49+0000] [ALPM-SCRIPTLET]     See Xorg.wrap man page (man xorg.wrap).
+[2020-08-19T11:11:49+0000] [ALPM] installed yay (10.0.3-3)
+[2020-08-19T11:11:49+0000] [ALPM] installed zensu (0.1-1)
+[2020-08-19T11:11:49+0000] [ALPM] transaction completed
+[2020-08-19T11:11:49+0000] [ALPM] running '20-systemd-sysusers.hook'...
+[2020-08-19T11:11:50+0000] [ALPM] running '30-systemd-catalog.hook'...
+[2020-08-19T11:11:50+0000] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2020-08-19T11:11:50+0000] [ALPM-SCRIPTLET]   Skipped: Current root is not booted.
+[2020-08-19T11:11:50+0000] [ALPM] running '30-systemd-hwdb.hook'...
+[2020-08-19T11:11:50+0000] [ALPM] running '30-systemd-sysctl.hook'...
+[2020-08-19T11:11:50+0000] [ALPM-SCRIPTLET]   Skipped: Current root is not booted.
+[2020-08-19T11:11:50+0000] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2020-08-19T11:11:50+0000] [ALPM] running '30-systemd-udev-reload.hook'...
+[2020-08-19T11:11:50+0000] [ALPM-SCRIPTLET]   Skipped: Device manager is not running.
+[2020-08-19T11:11:50+0000] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T11:11:50+0000] [ALPM] running '40-update-ca-trust.hook'...
+[2020-08-19T11:11:51+0000] [ALPM] running '60-depmod.hook'...
+[2020-08-19T11:11:59+0000] [ALPM] running '90-mkinitcpio-install.hook'...
+[2020-08-19T11:11:59+0000] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux54.preset: 'default'
+[2020-08-19T11:11:59+0000] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-5.4-x86_64 -c /etc/mkinitcpio.conf -g /boot/initramfs-5.4-x86_64.img
+[2020-08-19T11:11:59+0000] [ALPM-SCRIPTLET] ==> Starting build: 5.4.57-1-MANJARO
+[2020-08-19T11:11:59+0000] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2020-08-19T11:11:59+0000] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2020-08-19T11:11:59+0000] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2020-08-19T11:11:59+0000] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2020-08-19T11:12:00+0000] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2020-08-19T11:12:01+0000] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2020-08-19T11:12:01+0000] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2020-08-19T11:12:01+0000] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2020-08-19T11:12:01+0000] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2020-08-19T11:12:01+0000] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-5.4-x86_64.img
+[2020-08-19T11:12:03+0000] [ALPM-SCRIPTLET] ==> Image generation successful
+[2020-08-19T11:12:03+0000] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux54.preset: 'fallback'
+[2020-08-19T11:12:03+0000] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-5.4-x86_64 -c /etc/mkinitcpio.conf -g /boot/initramfs-5.4-x86_64-fallback.img -S autodetect
+[2020-08-19T11:12:03+0000] [ALPM-SCRIPTLET] ==> Starting build: 5.4.57-1-MANJARO
+[2020-08-19T11:12:03+0000] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2020-08-19T11:12:03+0000] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2020-08-19T11:12:03+0000] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2020-08-19T11:12:03+0000] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2020-08-19T11:12:08+0000] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2020-08-19T11:12:09+0000] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2020-08-19T11:12:11+0000] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2020-08-19T11:12:12+0000] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2020-08-19T11:12:12+0000] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-5.4-x86_64-fallback.img
+[2020-08-19T11:12:18+0000] [ALPM-SCRIPTLET] ==> Image generation successful
+[2020-08-19T11:12:18+0000] [ALPM] running 'dbus-reload.hook'...
+[2020-08-19T11:12:18+0000] [ALPM-SCRIPTLET]   Skipped: Current root is not booted.
+[2020-08-19T11:12:18+0000] [ALPM] running 'detect-old-perl-modules.hook'...
+[2020-08-19T11:12:18+0000] [ALPM] running 'fontconfig.hook'...
+[2020-08-19T11:12:19+0000] [ALPM] running 'gdk-pixbuf-query-loaders.hook'...
+[2020-08-19T11:12:19+0000] [ALPM] running 'gio-querymodules.hook'...
+[2020-08-19T11:12:19+0000] [ALPM] running 'glib-compile-schemas.hook'...
+[2020-08-19T11:12:19+0000] [ALPM] running 'gtk-query-immodules-2.0.hook'...
+[2020-08-19T11:12:19+0000] [ALPM] running 'gtk-query-immodules-3.0.hook'...
+[2020-08-19T11:12:19+0000] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2020-08-19T11:12:23+0000] [ALPM-SCRIPTLET] gtk-update-icon-cache: The generated cache was invalid.
+[2020-08-19T11:12:24+0000] [ALPM] running 'gvfsd.hook'...
+[2020-08-19T11:12:24+0000] [ALPM] running 'manjaro-printer.hook'...
+[2020-08-19T11:12:24+0000] [ALPM] running 'pacman-mirrors-install.hook'...
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::[1;33mWARNING[1;m https://gitlab.manjaro.org '<urlopen error [Errno -2] Name or service not known>'
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::[1;33mWARNING[1;m https://wikipedia.org '<urlopen error [Errno -2] Name or service not known>'
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::[1;33mWARNING[1;m https://bitbucket.org '<urlopen error [Errno -2] Name or service not known>'
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::[1;37mINFO[1;m Internet connection appears to be down
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::[1;37mINFO[1;m Mirror ranking is not available
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::[1;37mINFO[1;m Mirror list is generated using random method
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::[1;37mINFO[1;m Writing mirror list
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Denmark         : https://mirrors.dotsrc.org/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Poland          : http://mirror.chmuri.net/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Portugal        : http://manjaro.barata.pt/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Netherlands     : http://ftp.snt.utwente.nl/pub/linux/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::China           : https://mirrors.shuosc.org/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Costa_Rica      : https://mirrors.ucr.ac.cr/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Singapore       : https://download.nus.edu.sg/mirror/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Germany         : https://ftp.halifax.rwth-aachen.de/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Japan           : http://ftp.tsukuba.wide.ad.jp/Linux/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Brazil          : http://pet.inf.ufsc.br/mirrors/manjarolinux/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Germany         : https://manjaro.moson.eu/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::France          : http://ftp.free.org/mirrors/repo.manjaro.org/repos/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Bulgaria        : https://mirrors.netix.net/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::United_States   : https://mirror.clarkson.edu/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::United_States   : http://distro.ibiblio.org/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Taiwan          : http://free.nchc.org.tw/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Bulgaria        : https://manjaro.ipacct.com/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Germany         : http://ftp.rz.tu-bs.de/pub/mirror/manjaro.org/repos/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::South_Africa    : http://mirror.is.co.za/mirrors/manjaro.org/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::United_Kingdom  : http://mirror.catn.com/pub/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Indonesia       : http://kartolo.sby.datautama.net.id/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Spain           : http://ftp.caliu.cat/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Brazil          : http://linorg.usp.br/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Netherlands     : https://ftp.nluug.nl/pub/os/Linux/distr/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Hong_Kong       : http://ftp.cuhk.edu.hk/pub/Linux/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Indonesia       : http://kambing.ui.ac.id/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Italy           : https://ba.mirror.garr.it/mirrors/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Austria         : http://mirror.inode.at/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Germany         : https://repo.rhindon.net/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Germany         : http://mirror.ragenetwork.de/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Philippines     : http://mirror.rise.ph/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::South_Africa    : http://manjaro.mirror.ac.za/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::China           : https://mirrors.ustc.edu.cn/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Sweden          : https://mirror.zetup.net/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Germany         : https://mirror.netcologne.de/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Ecuador         : https://mirror.espoch.edu.ec/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::China           : http://mirrors.tuna.tsinghua.edu.cn/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Germany         : http://ftp.tu-chemnitz.de/pub/linux/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::China           : https://mirrors.zju.edu.cn/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Iran            : https://repo.sadjad.ac.ir/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Sweden          : https://ftp.lysator.liu.se/pub/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Canada          : https://osmirror.org/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Japan           : http://ftp.riken.jp/Linux/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Czech           : https://mirror.dkm.cz/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Greece          : https://ftp.cc.uoc.gr/mirrors/linux/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::United_Kingdom  : http://repo.manjaro.org.uk/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Chile           : http://manjaro.dcc.uchile.cl/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Colombia        : http://mirror.upb.edu.co/manjarostable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Germany         : https://mirror.netzspielplatz.de/manjaro/packages/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Australia       : http://manjaro.melbourneitmirror.net/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Russia          : http://mirror.truenetwork.ru/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Belgium         : https://manjaro.cu.be/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Brazil          : https://manjaro.c3sl.ufpr.br/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Netherlands     : https://mirror.koddos.net/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::United_Kingdom  : https://www.mirrorservice.org/sites/repo.manjaro.org/repos/sta[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::United_States   : http://mirror.dacentec.com/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::China           : https://mirrors.shu.edu.cn/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Poland          : https://mirror.tuchola-dc.pl/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::China           : https://mirrors.sjtug.sjtu.edu.cn/manjarostable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Turkey          : http://ftp.linux.org.tr/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::United_States   : https://mirrors.ocf.berkeley.edu/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Russia          : https://mirror.yandex.ru/mirrors/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::France          : http://kibo.remi.lu/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Italy           : https://manjaro.mirror.garr.it/mirrors/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::United_Kingdom  : http://manjaro.mirrors.uk2.net/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Belarus         : http://mirror.datacenter.by/pub/mirrors/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Romania         : http://mirrors.serverhost.ro/manjaro/packages/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Belgium         : http://ftp.belnet.be/mirrors/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Denmark         : https://www.uex.dk/public/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Hungary         : http://mirror.infotronik.hu/mirrors/pub/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Brazil          : http://mirror.ufam.edu.br/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Ecuador         : https://mirror.cedia.org.ec/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Italy           : https://ct.mirror.garr.it/mirrors/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Australia       : http://mirror.ventraip.net.au/Manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Bangladesh      : http://mirror.xeonbd.com/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::United_States   : https://mirror.math.princeton.edu/pub/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Germany         : https://mirror.philpot.de/manjaro/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::Bulgaria        : http://manjaro.telecoms.bg/stable[1;m
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] ::[1;37mINFO[1;m Mirror list generated and saved to: /etc/pacman.d/mirrorlist
+[2020-08-19T11:12:24+0000] [ALPM-SCRIPTLET] hint: use `pacman-mirrors` to generate and update your pacman mirrorlist.
+[2020-08-19T11:12:24+0000] [ALPM] running 'texinfo-install.hook'...
+[2020-08-19T11:12:27+0000] [ALPM] running 'update-desktop-database.hook'...
+[2020-08-19T11:12:27+0000] [ALPM] running 'update-mime-database.hook'...
+[2020-08-19T11:12:27+0000] [ALPM] running 'update-vlc-plugin-cache.hook'...
+[2020-08-19T11:12:28+0000] [ALPM] running 'xorg-mkfontscale.hook'...
+[2020-08-19T11:13:01+0000] [PACMAN] Running 'pacman --noconfirm --cachedir /var/cache/pacman/pkg --config /etc/pacman.conf --root / --needed -Sy xf86-video-ati xf86-video-amdgpu xf86-video-intel xf86-video-nouveau vulkan-intel vulkan-radeon libva-mesa-driver libva-vdpau-driver mesa-vdpau lib32-vulkan-intel lib32-vulkan-radeon lib32-libva-vdpau-driver lib32-mesa-vdpau'
+[2020-08-19T11:13:01+0000] [PACMAN] synchronizing package lists
+[2020-08-19T11:14:50+0000] [ALPM] transaction started
+[2020-08-19T11:14:50+0000] [ALPM] installed xf86-video-ati (1:19.1.0-2)
+[2020-08-19T11:14:50+0000] [ALPM] installed xf86-video-amdgpu (19.1.0-2)
+[2020-08-19T11:14:50+0000] [ALPM] installed libxvmc (1.0.12-3)
+[2020-08-19T11:14:50+0000] [ALPM] installed xf86-video-intel (1:2.99.917+908+g7181c5a4-1)
+[2020-08-19T11:14:50+0000] [ALPM-SCRIPTLET] >>> This driver now uses DRI3 as the default Direct Rendering
+[2020-08-19T11:14:50+0000] [ALPM-SCRIPTLET]     Infrastructure. You can try falling back to DRI2 if you run
+[2020-08-19T11:14:50+0000] [ALPM-SCRIPTLET]     into trouble. To do so, save a file with the following 
+[2020-08-19T11:14:50+0000] [ALPM-SCRIPTLET]     content as /etc/X11/xorg.conf.d/20-intel.conf :
+[2020-08-19T11:14:50+0000] [ALPM-SCRIPTLET]       Section "Device"
+[2020-08-19T11:14:50+0000] [ALPM-SCRIPTLET]         Identifier  "Intel Graphics"
+[2020-08-19T11:14:50+0000] [ALPM-SCRIPTLET]         Driver      "intel"
+[2020-08-19T11:14:50+0000] [ALPM-SCRIPTLET]         Option      "DRI" "2"             # DRI3 is now default 
+[2020-08-19T11:14:50+0000] [ALPM-SCRIPTLET]         #Option      "AccelMethod"  "sna" # default
+[2020-08-19T11:14:50+0000] [ALPM-SCRIPTLET]         #Option      "AccelMethod"  "uxa" # fallback
+[2020-08-19T11:14:50+0000] [ALPM-SCRIPTLET]       EndSection
+[2020-08-19T11:14:50+0000] [ALPM] installed xf86-video-nouveau (1.0.16-2)
+[2020-08-19T11:14:50+0000] [ALPM] installed vulkan-intel (20.1.5-1)
+[2020-08-19T11:14:50+0000] [ALPM] installed vulkan-radeon (20.1.5-1)
+[2020-08-19T11:14:50+0000] [ALPM] installed libva-mesa-driver (20.1.5-1)
+[2020-08-19T11:14:50+0000] [ALPM] installed libva-vdpau-driver (0.7.4-4)
+[2020-08-19T11:14:50+0000] [ALPM] installed mesa-vdpau (20.1.5-1)
+[2020-08-19T11:14:50+0000] [ALPM] installed lib32-glibc (2.31-5)
+[2020-08-19T11:14:50+0000] [ALPM] installed lib32-libffi (3.3-2)
+[2020-08-19T11:14:50+0000] [ALPM] installed lib32-expat (2.2.9-1)
+[2020-08-19T11:14:50+0000] [ALPM] installed lib32-zlib (1.2.11-2)
+[2020-08-19T11:14:50+0000] [ALPM] installed lib32-ncurses (6.2-1)
+[2020-08-19T11:14:50+0000] [ALPM] installed lib32-readline (8.0.0-1)
+[2020-08-19T11:14:50+0000] [ALPM] installed lib32-xz (5.2.5-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-gcc-libs (10.1.0-2)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-icu (67.1-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libxml2 (2.9.10-2)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-wayland (1.18.0-2)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libxdmcp (1.1.3-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libxau (1.0.9-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libxcb (1.14-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libx11 (1.6.10-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libxshmfence (1.3-2)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libpciaccess (0.16-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libdrm (2.4.102-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-lz4 (1.9.2-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-zstd (1.4.5-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-vulkan-intel (20.1.5-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-bzip2 (1.0.8-2)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libelf (0.180-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-llvm-libs (10.0.1-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-vulkan-radeon (20.1.5-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libxext (1.3.4-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libxxf86vm (1.1.4-2)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libxfixes (5.0.3-2)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libxdamage (1.1.5-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libunwind (1.3.1-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-lm_sensors (3.6.0-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-mesa (20.1.5-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libglvnd (1.3.2-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libva (2.8.0-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libvdpau (1.4-1)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-libva-vdpau-driver (0.7.4-6)
+[2020-08-19T11:14:51+0000] [ALPM] installed lib32-mesa-vdpau (20.1.5-1)
+[2020-08-19T11:14:51+0000] [ALPM] transaction completed
+[2020-08-19T11:14:51+0000] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T11:15:02+0000] [PACMAN] Running 'pacman -r /mnt -Sy --noconfirm systemd-boot-manager'
+[2020-08-19T11:15:02+0000] [PACMAN] synchronizing package lists
+[2020-08-19T11:15:03+0000] [ALPM] transaction started
+[2020-08-19T11:15:03+0000] [ALPM] installed systemd-boot-manager (0.9-1)
+[2020-08-19T11:15:03+0000] [ALPM] transaction completed
+[2020-08-19T11:15:03+0000] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T11:17:11+0000] [PACMAN] Running 'pacman -r /mnt -Sy --noconfirm manjaro-zsh-config'
+[2020-08-19T11:17:11+0000] [PACMAN] synchronizing package lists
+[2020-08-19T11:17:12+0000] [ALPM] transaction started
+[2020-08-19T11:17:12+0000] [ALPM] installed zsh-autosuggestions (0.6.4-1)
+[2020-08-19T11:17:12+0000] [ALPM] installed zsh-syntax-highlighting (0.7.1-1)
+[2020-08-19T11:17:12+0000] [ALPM-SCRIPTLET] To activate zsh-syntax-highlighting, add the following line at the end of ~/.zshrc:
+[2020-08-19T11:17:12+0000] [ALPM-SCRIPTLET]     source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+[2020-08-19T11:17:12+0000] [ALPM] installed zsh-completions (0.32.0-1)
+[2020-08-19T11:17:12+0000] [ALPM] installed zsh-history-substring-search (1.0.2-1)
+[2020-08-19T11:17:12+0000] [ALPM] installed pkgfile (21-2)
+[2020-08-19T11:17:12+0000] [ALPM-SCRIPTLET] ==> Run 'pkgfile --update' to initialize the database
+[2020-08-19T11:17:12+0000] [ALPM] installed manjaro-zsh-config (0.12-1)
+[2020-08-19T11:17:12+0000] [ALPM] transaction completed
+[2020-08-19T11:17:12+0000] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2020-08-19T11:17:12+0000] [ALPM-SCRIPTLET]   Skipped: Current root is not booted.
+[2020-08-19T11:17:12+0000] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T06:20:38-0500] [PACMAN] Running 'pacman -S pfetch'
+[2020-08-19T06:22:33-0500] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/bkrigdon/.cache/yay/pfetch-git/pfetch-git-r346.28937a4-1-any.pkg.tar.xz'
+[2020-08-19T06:22:33-0500] [ALPM] transaction started
+[2020-08-19T06:22:33-0500] [ALPM] installed pfetch-git (r346.28937a4-1)
+[2020-08-19T06:22:34-0500] [ALPM] transaction completed
+[2020-08-19T06:22:34-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T06:23:43-0500] [PACMAN] Running 'pacman -S chromium'
+[2020-08-19T06:24:51-0500] [ALPM] transaction started
+[2020-08-19T06:24:51-0500] [ALPM] installed re2 (1:20200801-1)
+[2020-08-19T06:24:51-0500] [ALPM] installed snappy (1.1.8-1)
+[2020-08-19T06:24:51-0500] [ALPM] installed minizip (1:1.2.11-4)
+[2020-08-19T06:24:51-0500] [ALPM] installed chromium (84.0.4147.125-1)
+[2020-08-19T06:24:51-0500] [ALPM] transaction completed
+[2020-08-19T06:24:51-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T06:24:51-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2020-08-19T06:24:51-0500] [ALPM] running 'update-desktop-database.hook'...
+[2020-08-19T09:50:18-0500] [PACMAN] Running 'pacman -S conky terminator i3blocks'
+[2020-08-19T09:50:22-0500] [ALPM] transaction started
+[2020-08-19T09:50:22-0500] [ALPM] reinstalled conky (1.11.5+2+g0d449029-2)
+[2020-08-19T09:50:22-0500] [ALPM] installed libkeybinder3 (0.3.2-3)
+[2020-08-19T09:50:22-0500] [ALPM] installed python-configobj (5.0.6-7)
+[2020-08-19T09:50:22-0500] [ALPM] installed terminator (1.92-2)
+[2020-08-19T09:50:22-0500] [ALPM] installed i3blocks (1.5-3)
+[2020-08-19T09:50:23-0500] [ALPM] transaction completed
+[2020-08-19T09:50:23-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T09:50:23-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2020-08-19T09:50:23-0500] [ALPM] running 'update-desktop-database.hook'...
+[2020-08-19T09:59:24-0500] [PACMAN] Running 'pacman -S redshift'
+[2020-08-19T09:59:27-0500] [ALPM] transaction started
+[2020-08-19T09:59:27-0500] [ALPM] installed geocode-glib (3.26.2-1)
+[2020-08-19T09:59:27-0500] [ALPM] installed geoclue (2.5.6-1)
+[2020-08-19T09:59:27-0500] [ALPM] installed redshift (1.12-3)
+[2020-08-19T09:59:27-0500] [ALPM] transaction completed
+[2020-08-19T09:59:27-0500] [ALPM] running '20-systemd-sysusers.hook'...
+[2020-08-19T09:59:27-0500] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2020-08-19T09:59:28-0500] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2020-08-19T09:59:28-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T09:59:28-0500] [ALPM] running 'dbus-reload.hook'...
+[2020-08-19T09:59:28-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2020-08-19T09:59:28-0500] [ALPM] running 'update-desktop-database.hook'...
+[2020-08-19T10:00:16-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- ttf-roboto-mono'
+[2020-08-19T10:00:18-0500] [ALPM] transaction started
+[2020-08-19T10:00:18-0500] [ALPM] installed ttf-roboto-mono (2.002-4)
+[2020-08-19T10:00:18-0500] [ALPM] transaction completed
+[2020-08-19T10:00:18-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T10:00:18-0500] [ALPM] running 'fontconfig.hook'...
+[2020-08-19T10:00:19-0500] [ALPM] running 'xorg-mkfontscale.hook'...
+[2020-08-19T10:04:08-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/go'
+[2020-08-19T10:04:55-0500] [ALPM] transaction started
+[2020-08-19T10:04:57-0500] [ALPM] installed go (2:1.14.7-1)
+[2020-08-19T10:04:57-0500] [ALPM] transaction completed
+[2020-08-19T10:04:57-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T10:04:57-0500] [PACMAN] Running 'pacman -D --asdeps --config /etc/pacman.conf -- go'
+[2020-08-19T10:05:29-0500] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/bkrigdon/.cache/yay/i3icons2-git/i3icons2-git-20191008.b915b4a-1-x86_64.pkg.tar.xz'
+[2020-08-19T10:05:29-0500] [ALPM] transaction started
+[2020-08-19T10:05:30-0500] [ALPM] installed i3icons2-git (20191008.b915b4a-1)
+[2020-08-19T10:05:30-0500] [ALPM] transaction completed
+[2020-08-19T10:05:30-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T10:06:51-0500] [PACMAN] Running 'pacman -S thunar'
+[2020-08-19T10:06:53-0500] [ALPM] transaction started
+[2020-08-19T10:06:53-0500] [ALPM] installed thunar (1.8.15-1)
+[2020-08-19T10:06:53-0500] [ALPM] transaction completed
+[2020-08-19T10:06:53-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T10:06:53-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2020-08-19T10:06:53-0500] [ALPM] running 'update-desktop-database.hook'...
+[2020-08-19T10:07:15-0500] [PACMAN] Running 'pacman -S pavucontrol'
+[2020-08-19T10:07:17-0500] [ALPM] transaction started
+[2020-08-19T10:07:17-0500] [ALPM] installed libcanberra-pulse (0.30+2+gc0620e4-3)
+[2020-08-19T10:07:17-0500] [ALPM] installed pavucontrol (1:4.0-2)
+[2020-08-19T10:07:17-0500] [ALPM] transaction completed
+[2020-08-19T10:07:17-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T10:07:17-0500] [ALPM] running 'update-desktop-database.hook'...
+[2020-08-19T10:08:15-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- pulseaudio-ctl'
+[2020-08-19T10:08:17-0500] [ALPM] transaction started
+[2020-08-19T10:08:17-0500] [ALPM] installed rtkit (0.13-1)
+[2020-08-19T10:08:17-0500] [ALPM] installed pulseaudio (13.0-3)
+[2020-08-19T10:08:17-0500] [ALPM-SCRIPTLET] Created symlink /etc/systemd/user/sockets.target.wants/pulseaudio.socket → /usr/lib/systemd/user/pulseaudio.socket.
+[2020-08-19T10:08:17-0500] [ALPM] installed pulseaudio-ctl (1.67-1)
+[2020-08-19T10:08:17-0500] [ALPM-SCRIPTLET] --------------------------------------------------------------------------
+[2020-08-19T10:08:17-0500] [ALPM-SCRIPTLET]                            INSTRUCTIONS FOR USE
+[2020-08-19T10:08:17-0500] [ALPM-SCRIPTLET] 
+[2020-08-19T10:08:17-0500] [ALPM-SCRIPTLET] Simply map the following scripts to keyboard shortcuts in your DE or WM.
+[2020-08-19T10:08:17-0500] [ALPM-SCRIPTLET] Xfce4 allows for this under Settings > Keyboard > Application Shortcuts.
+[2020-08-19T10:08:17-0500] [ALPM-SCRIPTLET] 
+[2020-08-19T10:08:17-0500] [ALPM-SCRIPTLET] /usr/bin/pulseaudio-ctl mute ==>  Toggle status of mute
+[2020-08-19T10:08:17-0500] [ALPM-SCRIPTLET] /usr/bin/pulseaudio-ctl mute-input ==>  Toggle status of mute for mic
+[2020-08-19T10:08:17-0500] [ALPM-SCRIPTLET] /usr/bin/pulseaudio-ctl up   ==>  Increase vol by 5 %
+[2020-08-19T10:08:17-0500] [ALPM-SCRIPTLET] /usr/bin/pulseaudio-ctl down ==>  Decrease vol by 5 %
+[2020-08-19T10:08:17-0500] [ALPM-SCRIPTLET] --------------------------------------------------------------------------
+[2020-08-19T10:08:17-0500] [ALPM] transaction completed
+[2020-08-19T10:08:17-0500] [ALPM] running '20-systemd-sysusers.hook'...
+[2020-08-19T10:08:18-0500] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2020-08-19T10:08:18-0500] [ALPM] running '30-systemd-udev-reload.hook'...
+[2020-08-19T10:08:18-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T10:08:18-0500] [ALPM] running 'dbus-reload.hook'...
+[2020-08-19T10:08:18-0500] [ALPM] running 'glib-compile-schemas.hook'...
+[2020-08-19T10:10:25-0500] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/bkrigdon/.cache/yay/networkmanager-dmenu-git/networkmanager-dmenu-git-r123.4eeabef-1-any.pkg.tar.xz'
+[2020-08-19T10:10:25-0500] [ALPM] transaction started
+[2020-08-19T10:10:25-0500] [ALPM] installed networkmanager-dmenu-git (r123.4eeabef-1)
+[2020-08-19T10:10:25-0500] [ALPM-SCRIPTLET] 
+[2020-08-19T10:10:25-0500] [ALPM-SCRIPTLET] To customize dmenu, copy /usr/share/doc/networkmanager-dmenu-git/config.ini.example into ~/.config/networkmanager-dmenu/config.ini and edit:
+[2020-08-19T10:10:25-0500] [ALPM-SCRIPTLET]     
+[2020-08-19T10:10:25-0500] [ALPM] transaction completed
+[2020-08-19T10:10:25-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T10:10:25-0500] [ALPM] running 'update-desktop-database.hook'...
+[2020-08-19T10:14:07-0500] [PACMAN] Running 'pacman -S xfce4-power-manager'
+[2020-08-19T10:14:09-0500] [ALPM] transaction started
+[2020-08-19T10:14:10-0500] [ALPM] reinstalled xfce4-power-manager (1.6.6-1)
+[2020-08-19T10:14:10-0500] [ALPM] transaction completed
+[2020-08-19T10:14:10-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T10:14:10-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2020-08-19T10:14:10-0500] [ALPM] running 'update-desktop-database.hook'...
+[2020-08-19T10:24:29-0500] [PACMAN] Running 'pacman -S feh'
+[2020-08-19T10:24:31-0500] [ALPM] transaction started
+[2020-08-19T10:24:31-0500] [ALPM] installed feh (3.4.1-1)
+[2020-08-19T10:24:31-0500] [ALPM] transaction completed
+[2020-08-19T10:24:32-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T10:24:32-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2020-08-19T10:24:32-0500] [ALPM] running 'update-desktop-database.hook'...
+[2020-08-19T10:40:17-0500] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- ttf-roboto'
+[2020-08-19T10:40:21-0500] [ALPM] transaction started
+[2020-08-19T10:40:21-0500] [ALPM] installed ttf-roboto (2.138-4)
+[2020-08-19T10:40:21-0500] [ALPM] transaction completed
+[2020-08-19T10:40:21-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T10:40:21-0500] [ALPM] running 'fontconfig.hook'...
+[2020-08-19T10:40:22-0500] [ALPM] running 'xorg-mkfontscale.hook'...
+[2020-08-19T10:45:40-0500] [PACMAN] Running 'pacman -Syu'
+[2020-08-19T10:45:40-0500] [PACMAN] synchronizing package lists
+[2020-08-19T10:45:40-0500] [PACMAN] starting full system upgrade
+[2020-08-19T10:45:48-0500] [ALPM] transaction started
+[2020-08-19T10:45:48-0500] [ALPM] removed python-ueberzug (18.1.5-3)
+[2020-08-19T10:45:48-0500] [ALPM] installed ueberzug (18.1.6-2)
+[2020-08-19T10:45:48-0500] [ALPM] transaction completed
+[2020-08-19T10:45:48-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T10:59:52-0500] [PACMAN] Running 'pacman -Syu'
+[2020-08-19T10:59:52-0500] [PACMAN] synchronizing package lists
+[2020-08-19T10:59:53-0500] [PACMAN] starting full system upgrade
+[2020-08-19T15:36:04-0500] [PACMAN] Running 'pacman -S virt-manager'
+[2020-08-19T15:36:10-0500] [ALPM] transaction started
+[2020-08-19T15:36:10-0500] [ALPM] installed osinfo-db (20200529-1)
+[2020-08-19T15:36:10-0500] [ALPM] installed libosinfo (1.8.0-1)
+[2020-08-19T15:36:10-0500] [ALPM] installed numactl (2.0.13-3)
+[2020-08-19T15:36:10-0500] [ALPM] installed libvirt (6.5.0-1)
+[2020-08-19T15:36:10-0500] [ALPM] installed libvirt-python (6.4.0-1)
+[2020-08-19T15:36:10-0500] [ALPM] installed virt-install (2.2.1-2)
+[2020-08-19T15:36:11-0500] [ALPM] installed gtk-vnc (1.0.0-2)
+[2020-08-19T15:36:11-0500] [ALPM] installed libvirt-glib (3.0.0-1)
+[2020-08-19T15:36:11-0500] [ALPM] installed libcacard (2.7.0-2)
+[2020-08-19T15:36:11-0500] [ALPM] installed phodav (2.4-1)
+[2020-08-19T15:36:11-0500] [ALPM] installed usbredir (0.8.0-2)
+[2020-08-19T15:36:11-0500] [ALPM] installed spice-gtk (0.38-1)
+[2020-08-19T15:36:11-0500] [ALPM] installed gtksourceview4 (4.6.1-1)
+[2020-08-19T15:36:11-0500] [ALPM] installed virt-manager (2.2.1-2)
+[2020-08-19T15:36:11-0500] [ALPM] transaction completed
+[2020-08-19T15:36:11-0500] [ALPM] running '20-systemd-sysusers.hook'...
+[2020-08-19T15:36:11-0500] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2020-08-19T15:36:11-0500] [ALPM] running '30-systemd-sysctl.hook'...
+[2020-08-19T15:36:11-0500] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2020-08-19T15:36:11-0500] [ALPM] running '30-systemd-udev-reload.hook'...
+[2020-08-19T15:36:11-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T15:36:11-0500] [ALPM] running 'glib-compile-schemas.hook'...
+[2020-08-19T15:36:11-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2020-08-19T15:36:11-0500] [ALPM] running 'update-desktop-database.hook'...
+[2020-08-19T15:41:35-0500] [PACMAN] Running 'pacman -S virt-manager'
+[2020-08-19T15:41:38-0500] [ALPM] transaction started
+[2020-08-19T15:41:38-0500] [ALPM] reinstalled virt-manager (2.2.1-2)
+[2020-08-19T15:41:38-0500] [ALPM] transaction completed
+[2020-08-19T15:41:38-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T15:41:38-0500] [ALPM] running 'glib-compile-schemas.hook'...
+[2020-08-19T15:41:38-0500] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2020-08-19T15:41:38-0500] [ALPM] running 'update-desktop-database.hook'...
+[2020-08-19T15:49:45-0500] [PACMAN] Running 'pacman -S lxappearance'
+[2020-08-19T15:49:50-0500] [ALPM] transaction started
+[2020-08-19T15:49:50-0500] [ALPM] reinstalled lxappearance (0.6.3-3)
+[2020-08-19T15:49:50-0500] [ALPM] transaction completed
+[2020-08-19T15:49:50-0500] [ALPM] running '30-systemd-update.hook'...
+[2020-08-19T15:49:50-0500] [ALPM] running 'update-desktop-database.hook'...
+[2020-08-19T16:03:16-0500] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/bkrigdon/.cache/yay/gruvbox-dark-gtk/gruvbox-dark-gtk-1.0.1-1-any.pkg.tar.xz'
+[2020-08-19T16:03:16-0500] [ALPM] transaction started
+[2020-08-19T16:03:16-0500] [ALPM] installed gruvbox-dark-gtk (1.0.1-1)
+[2020-08-19T16:03:16-0500] [ALPM] transaction completed
+[2020-08-19T16:03:16-0500] [ALPM] running '30-systemd-update.hook'...
