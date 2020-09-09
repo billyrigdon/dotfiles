@@ -3,6 +3,8 @@
 echo "Enter new hostname"
 read newhostname
 
+hostnamectl set-hostname $newhostname
+
 currentuser=$(whoami)
 
 sudo dnf install \
